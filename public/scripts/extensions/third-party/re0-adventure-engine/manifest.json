@@ -1,0 +1,15 @@
+{
+    "display_name": "Re:0 Adventure Engine",
+    "loading_order": 120,
+    "requires": [],
+    "optional": [],
+    "generate_interceptor": "re0AdventureEngineBeforeGenerate",
+    "js": "index.js",
+    "css": "style.css",
+    "author": "Codex",
+    "version": "1.0.0",
+    "homePage": "https://github.com/SillyTavern/SillyTavern",
+    "hooks": {
+        "activate": "init"
+    }
+}

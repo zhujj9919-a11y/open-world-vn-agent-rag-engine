@@ -1,0 +1,1 @@
+export const VISUAL_NOVEL_VISIBLE_CHOICE_LIMIT = 8;

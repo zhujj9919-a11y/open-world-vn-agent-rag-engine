@@ -1,0 +1,3967 @@
+{
+  "generatedAt": "2026-06-14T14:19:42.960Z",
+  "counts": {
+    "convergenceNodes": 90,
+    "keys": 56,
+    "deathFlags": 87,
+    "sideQuests": 68,
+    "decisionPoints": 51,
+    "endings": 9,
+    "characterDossiers": 65,
+    "remoteSignals": 70,
+    "worldlineBranches": 13
+  },
+  "sideQuests": [
+    {
+      "id": "Q-1-01",
+      "arc": 1,
+      "name": "雨夜清扫者",
+      "tendency": "Umbra / Bell",
+      "recommendedTime": "D1 深夜",
+      "summary": "NPC: 3 名戴黑布巾的男人（魔女教外围信使候选） 事件: 他们搬钟锈废料。问错问题被盯上。 分支: ① 装路人走开（安全）② 上前搭话（被盯，Witch 标记 +1）③ 跟踪（K-1-03 候选） 影响: 分支 ③ 激活 Q-1-05 连锁",
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-1-01",
+        "雨夜清扫者",
+        "一队戴黑布巾的清扫工",
+        "人在搬运钟锈废料",
+        "问错问题会被盯上",
+        "K-1-03",
+        "Q-1-05",
+        "名戴黑布巾的男人",
+        "魔女教外围信使候选",
+        "事件",
+        "他们搬钟锈废料"
+      ],
+      "trigger": "D 1 深夜玩家在贫民区滞留 ≥ 20 句话",
+      "lines": [
+        "NPC: 3 名戴黑布巾的男人（魔女教外围信使候选）",
+        "事件: 他们搬钟锈废料。问错问题被盯上。",
+        "分支: ① 装路人走开（安全）② 上前搭话（被盯，Witch 标记 +1）③ 跟踪（K-1-03 候选）",
+        "影响: 分支 ③ 激活 Q-1-05 连锁"
+      ]
+    },
+    {
+      "id": "Q-1-02",
+      "arc": 1,
+      "name": "半夜的债主",
+      "tendency": "Umbra",
+      "recommendedTime": "D1 深夜 / D2 清晨",
+      "summary": "NPC: 胖商人、米娅 事件: 商人来\"算债\"。米娅缩墙角。 分支: ① 出手赶走（米娅信任 +20，但商人记仇）② 装作不认识（米娅信任 -5）③ 用硬币付债（赌博：被记录硬币来路） 影响: 连锁到 Q-1-04 / Q-2-05",
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-1-02",
+        "半夜的债主",
+        "一个商人来找米娅",
+        "算债",
+        "米娅缩在角落",
+        "Q-1-04",
+        "Q-2-05",
+        "胖商人",
+        "米娅",
+        "事件",
+        "商人来"
+      ],
+      "trigger": "D 1 深夜 / D 2 清晨贫民区",
+      "lines": [
+        "NPC: 胖商人、米娅",
+        "事件: 商人来\"算债\"。米娅缩墙角。",
+        "分支: ① 出手赶走（米娅信任 +20，但商人记仇）② 装作不认识（米娅信任 -5）③ 用硬币付债（赌博：被记录硬币来路）",
+        "影响: 连锁到 Q-1-04 / Q-2-05"
+      ]
+    },
+    {
+      "id": "Q-1-03",
+      "arc": 1,
+      "name": "屋顶上的猫与钟声",
+      "tendency": "Mirror",
+      "recommendedTime": "D1 清晨前",
+      "summary": "NPC: 玩家 事件: 屋顶遇玩家。可对话或装看不见。 分支: ① 装没看见（Mirror -1）② 短对话不暴露身份（中性）③ 主动暴露死亡回归（D-1-04 偏离，Mirror +3）",
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-1-03",
+        "屋顶上的猫与钟声",
+        "玩家在屋顶听见与上一",
+        "轮一致的钟声",
+        "可调查也可装作没听见",
+        "D-1-04",
+        "事件",
+        "屋顶遇玩家",
+        "可对话或装看不见",
+        "分支",
+        "装没看见"
+      ],
+      "trigger": "D 1 清晨前玩家走屋顶",
+      "lines": [
+        "NPC: 玩家",
+        "事件: 屋顶遇玩家。可对话或装看不见。",
+        "分支: ① 装没看见（Mirror -1）② 短对话不暴露身份（中性）③ 主动暴露死亡回归（D-1-04 偏离，Mirror +3）"
+      ]
+    },
+    {
+      "id": "Q-1-04",
+      "arc": 1,
+      "name": "救济院的咳嗽声",
+      "tendency": "ALL",
+      "recommendedTime": "D1-D5 任意",
+      "summary": "NPC: 莉榭尔、生病孤儿 事件: 药价被故意抬高。 分支: ① 出钱买药（人情 +1，资源 -3）② 找掮客谈判（Truth +1）③ 偷药（Witch +1）",
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-1-04",
+        "救济院的咳嗽声",
+        "一名孤儿病重",
+        "需要药",
+        "药价被故意抬高",
+        "所有",
+        "莉榭尔",
+        "生病孤儿",
+        "事件",
+        "分支",
+        "出钱买药"
+      ],
+      "trigger": "D 1-D 5 任意时段在贫民区",
+      "lines": [
+        "NPC: 莉榭尔、生病孤儿",
+        "事件: 药价被故意抬高。",
+        "分支: ① 出钱买药（人情 +1，资源 -3）② 找掮客谈判（Truth +1）③ 偷药（Witch +1）"
+      ]
+    },
+    {
+      "id": "Q-1-05",
+      "arc": 1,
+      "name": "盗品蔵账本失窃",
+      "tendency": "Light / Truth",
+      "recommendedTime": "D2 白天",
+      "summary": "NPC: 罗姆爷、菲鲁特 事件: 账本被翻过。玩家成为见证 / 嫌疑。 分支: ① 当见证（罗姆爷信任 +20）② 装无关（中性）③ 偷走账本（K-1-03 关键证据）",
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-1-05",
+        "盗品蔵账本失窃",
+        "罗姆爷不在时账本被人",
+        "翻过",
+        "玩家可成为见证人也可",
+        "成为嫌疑",
+        "K-1-03",
+        "Q-1-01",
+        "罗姆爷",
+        "菲鲁特",
+        "事件",
+        "账本被翻过"
+      ],
+      "trigger": "D 2 白天 + Q-1-01 ③ 完成",
+      "lines": [
+        "NPC: 罗姆爷、菲鲁特",
+        "事件: 账本被翻过。玩家成为见证 / 嫌疑。",
+        "分支: ① 当见证（罗姆爷信任 +20）② 装无关（中性）③ 偷走账本（K-1-03 关键证据）"
+      ]
+    },
+    {
+      "id": "Q-1-06",
+      "arc": 1,
+      "name": "银发的另一个",
+      "tendency": "Mirror / Witch",
+      "recommendedTime": "D2-D3 黄昏",
+      "summary": "NPC: 未知（爱蜜莉雅 / 莎缇拉残影） 事件: 街角看见\"另一个银发\"，转头消失。 分支: ① 追（魔女注视 +2）② 不追（中性）",
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-1-06",
+        "银发的另一个",
+        "玩家在街角看见",
+        "另一个银发",
+        "转头消失",
+        "可追可不追",
+        "未知",
+        "爱蜜莉雅",
+        "莎缇拉残影",
+        "事件",
+        "街角看见"
+      ],
+      "trigger": "D 2-D 3 黄昏",
+      "lines": [
+        "NPC: 未知（爱蜜莉雅 / 莎缇拉残影）",
+        "事件: 街角看见\"另一个银发\"，转头消失。",
+        "分支: ① 追（魔女注视 +2）② 不追（中性）"
+      ]
+    },
+    {
+      "id": "Q-1-07",
+      "arc": 1,
+      "name": "巡逻骑士的玩笑",
+      "tendency": "ALL",
+      "recommendedTime": "D2-D4 上午",
+      "summary": "NPC: 2 名巡逻骑士 事件: 拿主角口音开玩笑。 分支: ① 礼貌应对（K-1-07 前置激活）② 反讽（Umbra +1）③ 揭穿他们偷懒（Truth +2，骑士记仇）",
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-1-07",
+        "K-1-07",
+        "巡逻骑士的玩笑",
+        "一对巡逻骑士拿主角的",
+        "口音开玩笑",
+        "处理方式影响",
+        "解锁",
+        "所有",
+        "名巡逻骑士",
+        "事件",
+        "拿主角口音开玩笑",
+        "分支"
+      ],
+      "trigger": "D 2-D 4 上午",
+      "lines": [
+        "NPC: 2 名巡逻骑士",
+        "事件: 拿主角口音开玩笑。",
+        "分支: ① 礼貌应对（K-1-07 前置激活）② 反讽（Umbra +1）③ 揭穿他们偷懒（Truth +2，骑士记仇）"
+      ]
+    },
+    {
+      "id": "Q-1-08",
+      "arc": 1,
+      "name": "莉榭尔的伞",
+      "tendency": "Bell / Witch",
+      "recommendedTime": "D2-D3 夜",
+      "summary": "NPC: 莉榭尔 事件: 黑伞内侧绣\"等待\"。问她不答。 分支: ① 不追问（K-1-08 前置）② 追问（莉雪记忆 -1）③ 偷拍记下（Bell +1）",
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-1-08",
+        "莉榭尔的伞",
+        "莉榭尔的黑伞内侧绣着",
+        "等待",
+        "两个字",
+        "问她她不会答",
+        "K-1-08",
+        "莉榭尔",
+        "事件",
+        "黑伞内侧绣",
+        "问她不答"
+      ],
+      "trigger": "D 2-D 3 夜",
+      "lines": [
+        "NPC: 莉榭尔",
+        "事件: 黑伞内侧绣\"等待\"。问她不答。",
+        "分支: ① 不追问（K-1-08 前置）② 追问（莉雪记忆 -1）③ 偷拍记下（Bell +1）"
+      ]
+    },
+    {
+      "id": "Q-1-09",
+      "arc": 1,
+      "name": "欧文留下的纸条",
+      "tendency": "Truth",
+      "recommendedTime": "D3-D5 任意",
+      "summary": "NPC: 欧文（不直接出现） 事件: 纸条：\"如果你能读懂这个，请到旧档案室西厅。\" 分支: ① 去（K-1-07 + Truth +3）② 烧掉（Umbra +2）③ 给莉雪看（连锁 Q-1-10）",
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-1-09",
+        "欧文留下的纸条",
+        "纸条上写着",
+        "如果你能读懂这个",
+        "请到旧档案室西厅",
+        "K-1-07",
+        "Q-1-10",
+        "欧文",
+        "不直接出现",
+        "事件",
+        "纸条"
+      ],
+      "trigger": "D 3-D 5",
+      "lines": [
+        "NPC: 欧文（不直接出现）",
+        "事件: 纸条：\"如果你能读懂这个，请到旧档案室西厅。\"",
+        "分支: ① 去（K-1-07 + Truth +3）② 烧掉（Umbra +2）③ 给莉雪看（连锁 Q-1-10）"
+      ]
+    },
+    {
+      "id": "Q-1-10",
+      "arc": 1,
+      "name": "第二条硬币",
+      "tendency": "Mirror / Witch",
+      "recommendedTime": "D5-D7 任意",
+      "summary": "NPC: （无具体 NPC，物证） 事件: 又捡到一枚硬币，与第一枚不同。 分支: ① 收藏（Arc 6 / Arc 11 钥匙）② 给莉雪研究（Mirror +2）③ 卖掉（Stale +1） ---",
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-1-10",
+        "第二条硬币",
+        "玩家在贫民区某处又捡",
+        "到一枚不属于这个世界",
+        "的硬币",
+        "这枚和第一枚不一样",
+        "无具体",
+        "物证",
+        "事件",
+        "又捡到一枚硬币",
+        "与第一枚不同",
+        "分支"
+      ],
+      "trigger": "D 5-D 7 在贫民区",
+      "lines": [
+        "NPC: （无具体 NPC，物证）",
+        "事件: 又捡到一枚硬币，与第一枚不同。",
+        "分支: ① 收藏（Arc 6 / Arc 11 钥匙）② 给莉雪研究（Mirror +2）③ 卖掉（Stale +1）",
+        "---"
+      ]
+    },
+    {
+      "id": "Q-2-01",
+      "arc": 2,
+      "name": "碧翠丝的禁书",
+      "tendency": "Truth/Mirror",
+      "recommendedTime": "D 19-25",
+      "summary": "- D 19-25 / Truth/Mirror / 碧翠丝 - 残页书被故意摆出。① 不碰（K-2-04 前置）② 偷读（K-2-01）③ 还回去并谢她（碧翠丝信任 +25）",
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-2-01",
+        "碧翠丝的禁书",
+        "碧翠丝故意把一本残页",
+        "书摆在主角能拿到的位",
+        "K-2-04",
+        "K-2-01",
+        "碧翠丝",
+        "残页书被故意摆出",
+        "不碰",
+        "偷读"
+      ],
+      "lines": [
+        "- D 19-25 / Truth/Mirror / 碧翠丝",
+        "- 残页书被故意摆出。① 不碰（K-2-04 前置）② 偷读（K-2-01）③ 还回去并谢她（碧翠丝信任 +25）"
+      ]
+    },
+    {
+      "id": "Q-2-02",
+      "arc": 2,
+      "name": "蕾姆的旧锤",
+      "tendency": "Light",
+      "recommendedTime": "D 15-22",
+      "summary": "- D 15-22 / Light / 蕾姆 - 储物间一把没头的旧锤。蕾姆有故事。① 听（K-2-02 前置）② 不问（中性）",
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-2-02",
+        "蕾姆的旧锤",
+        "储物间一把没了头的旧",
+        "蕾姆有故事",
+        "K-2-02",
+        "蕾姆",
+        "储物间一把没头的旧锤",
+        "不问",
+        "中性"
+      ],
+      "lines": [
+        "- D 15-22 / Light / 蕾姆",
+        "- 储物间一把没头的旧锤。蕾姆有故事。① 听（K-2-02 前置）② 不问（中性）"
+      ]
+    },
+    {
+      "id": "Q-2-03",
+      "arc": 2,
+      "name": "拉姆头痛",
+      "tendency": "所有",
+      "recommendedTime": "D 8-30",
+      "summary": "- D 8-30 / ALL / 拉姆 - 拉姆头痛由远古魔法所致。① 关心（拉姆信任 +5）② 嘲讽（罗兹瓦尔不悦）③ 调查根源（K-2-01 加成）",
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-2-03",
+        "拉姆头痛",
+        "拉姆头痛由远古魔法所",
+        "触怒罗兹瓦尔",
+        "所有",
+        "K-2-01",
+        "拉姆",
+        "关心",
+        "拉姆信任",
+        "嘲讽"
+      ],
+      "lines": [
+        "- D 8-30 / ALL / 拉姆",
+        "- 拉姆头痛由远古魔法所致。① 关心（拉姆信任 +5）② 嘲讽（罗兹瓦尔不悦）③ 调查根源（K-2-01 加成）"
+      ]
+    },
+    {
+      "id": "Q-2-04",
+      "arc": 2,
+      "name": "帕克在月夜",
+      "tendency": "Mirror",
+      "recommendedTime": "D 14-22",
+      "summary": "- D 14-22 / Mirror / 帕克 - 月夜化大猫。① 对视（魔女气味判定）② 不打扰（中性）③ 主动告之死亡回归（Mirror +5，高风险）",
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-2-04",
+        "帕克在月夜",
+        "帕克月夜化为大猫",
+        "与主角对视",
+        "帕克",
+        "月夜化大猫",
+        "对视",
+        "魔女气味判定",
+        "不打扰",
+        "中性"
+      ],
+      "lines": [
+        "- D 14-22 / Mirror / 帕克",
+        "- 月夜化大猫。① 对视（魔女气味判定）② 不打扰（中性）③ 主动告之死亡回归（Mirror +5，高风险）"
+      ]
+    },
+    {
+      "id": "Q-2-05",
+      "arc": 2,
+      "name": "阿拉姆村小孩看见钟楼图案",
+      "tendency": "Bell/Truth",
+      "recommendedTime": "D 14-25",
+      "summary": "- D 14-25 / Bell/Truth / 村童 - 一个村童画废钟图案。① 问出处（K-2-06 前置）② 默默擦掉（Bell -1）",
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-2-05",
+        "阿拉姆村小孩看见钟楼",
+        "图案",
+        "一个村童画了废钟图案",
+        "在墙上",
+        "K-2-06",
+        "村童",
+        "一个村童画废钟图案",
+        "问出处",
+        "默默擦掉"
+      ],
+      "lines": [
+        "- D 14-25 / Bell/Truth / 村童",
+        "- 一个村童画废钟图案。① 问出处（K-2-06 前置）② 默默擦掉（Bell -1）"
+      ]
+    },
+    {
+      "id": "Q-2-06",
+      "arc": 2,
+      "name": "走廊里的脚印",
+      "tendency": "Umbra/Mirror",
+      "recommendedTime": "D 12-19",
+      "summary": "- D 12-19 / Umbra/Mirror / 咒术师 - 不属于任何人的脚印。① 追（F-2-09 风险）② 拍记（K-2-07 候选）",
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-2-06",
+        "走廊里的脚印",
+        "走廊地上有不属于宅邸",
+        "任何人的脚印",
+        "F-2-09",
+        "K-2-07",
+        "咒术师",
+        "不属于任何人的脚印",
+        "风险",
+        "拍记"
+      ],
+      "lines": [
+        "- D 12-19 / Umbra/Mirror / 咒术师",
+        "- 不属于任何人的脚印。① 追（F-2-09 风险）② 拍记（K-2-07 候选）"
+      ]
+    },
+    {
+      "id": "Q-2-07",
+      "arc": 2,
+      "name": "咒术师的窗",
+      "tendency": "Truth",
+      "recommendedTime": "D 18-25",
+      "summary": "- D 18-25 / Truth / 咒术师 - 被遗忘的小窗直通暂居室。① 不进（中性）② 偷看（Truth +2）③ 当面对峙（F-2-10）",
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-2-07",
+        "咒术师的窗",
+        "某扇被遗忘的小窗",
+        "能直通咒术师暂居室",
+        "F-2-10",
+        "咒术师",
+        "被遗忘的小窗直通暂居",
+        "不进",
+        "中性",
+        "偷看"
+      ],
+      "lines": [
+        "- D 18-25 / Truth / 咒术师",
+        "- 被遗忘的小窗直通暂居室。① 不进（中性）② 偷看（Truth +2）③ 当面对峙（F-2-10）"
+      ]
+    },
+    {
+      "id": "Q-2-08",
+      "arc": 2,
+      "name": "罗兹瓦尔的镜子",
+      "tendency": "Witch/Bell",
+      "recommendedTime": "D 20-28",
+      "summary": "- D 20-28 / Witch/Bell / 罗兹瓦尔 - 夜晚路过看见镜中是别人。① 装没看见（中性）② 直接质问（F-2-05）③ 默记，Arc 4 用（K-4-03 前置） ---",
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-2-08",
+        "罗兹瓦尔的镜子",
+        "主角夜晚路过看见罗兹",
+        "瓦尔的镜里是别人",
+        "F-2-05",
+        "K-4-03",
+        "罗兹瓦尔",
+        "夜晚路过看见镜中是别",
+        "装没看见",
+        "中性"
+      ],
+      "lines": [
+        "- D 20-28 / Witch/Bell / 罗兹瓦尔",
+        "- 夜晚路过看见镜中是别人。① 装没看见（中性）② 直接质问（F-2-05）③ 默记，Arc 4 用（K-4-03 前置）",
+        "---"
+      ]
+    },
+    {
+      "id": "Q-3-01",
+      "arc": 3,
+      "name": "安娜塔西亚的合同",
+      "tendency": "Light",
+      "recommendedTime": "D 33-40",
+      "summary": "- D 33-40 / Light / 安娜塔西亚 - 出钱买玩家\"任何关于未来的信息\"。① 接（资源 +10，但情报泄露）② 拒（信任 +5）③ 假信息（Witch +1）",
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-3-01",
+        "安娜塔西亚的合同",
+        "安娜塔西亚提出买玩家",
+        "任何关于未来的信息",
+        "安娜塔西亚",
+        "出钱买玩家",
+        "资源",
+        "但情报泄露",
+        "信任"
+      ],
+      "lines": [
+        "- D 33-40 / Light / 安娜塔西亚",
+        "- 出钱买玩家\"任何关于未来的信息\"。① 接（资源 +10，但情报泄露）② 拒（信任 +5）③ 假信息（Witch +1）"
+      ]
+    },
+    {
+      "id": "Q-3-02",
+      "arc": 3,
+      "name": "威尔海姆的剑刃",
+      "tendency": "Light",
+      "recommendedTime": "D 36-42",
+      "summary": "- D 36-42 / Light / 威尔海姆 - 请玩家擦旧剑。① 听完故事（K-3-02 加成）② 不耐烦（关系 -10）",
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-3-02",
+        "威尔海姆的剑刃",
+        "威尔海姆请玩家擦一柄",
+        "旧剑",
+        "背后有他亡妻的故事",
+        "K-3-02",
+        "威尔海姆",
+        "请玩家擦旧剑",
+        "听完故事",
+        "加成",
+        "不耐烦"
+      ],
+      "lines": [
+        "- D 36-42 / Light / 威尔海姆",
+        "- 请玩家擦旧剑。① 听完故事（K-3-02 加成）② 不耐烦（关系 -10）"
+      ]
+    },
+    {
+      "id": "Q-3-03",
+      "arc": 3,
+      "name": "阿尔的酒",
+      "tendency": "Mirror",
+      "recommendedTime": "D 37-50",
+      "summary": "- D 37-50 / Mirror / 阿尔 - 邀玩家喝酒。① 喝并坦白同源（Mirror +5）② 喝但不坦白（Mirror +1）③ 拒（中性）",
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-3-03",
+        "阿尔的酒",
+        "阿尔在酒馆邀玩家喝一",
+        "他想确认主角是不是",
+        "也是从那边来的",
+        "阿尔",
+        "邀玩家喝酒",
+        "喝并坦白同源",
+        "喝但不坦白",
+        "中性"
+      ],
+      "lines": [
+        "- D 37-50 / Mirror / 阿尔",
+        "- 邀玩家喝酒。① 喝并坦白同源（Mirror +5）② 喝但不坦白（Mirror +1）③ 拒（中性）"
+      ]
+    },
+    {
+      "id": "Q-3-04",
+      "arc": 3,
+      "name": "菲利克斯的真心",
+      "tendency": "Light",
+      "recommendedTime": "D 36-50",
+      "summary": "- D 36-50 / Light / 菲利克斯 - 治愈时哼歌。① 问歌（菲利信任 +10）② 不问",
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-3-04",
+        "菲利克斯的真心",
+        "菲利克斯在治愈某人时",
+        "哼起一首歌",
+        "歌名指向他和库珥修的",
+        "童年",
+        "菲利克斯",
+        "治愈时哼歌",
+        "问歌",
+        "菲利信任",
+        "不问"
+      ],
+      "lines": [
+        "- D 36-50 / Light / 菲利克斯",
+        "- 治愈时哼歌。① 问歌（菲利信任 +10）② 不问"
+      ]
+    },
+    {
+      "id": "Q-3-05",
+      "arc": 3,
+      "name": "普莉希拉的扇",
+      "tendency": "Witch",
+      "recommendedTime": "D 36-45",
+      "summary": "- D 36-45 / Witch / 普莉希拉 - 扇点脖子留红印。Witch +1（被动）。后续可影响 Arc 10 D-10-03",
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-3-05",
+        "普莉希拉的扇",
+        "普莉希拉用扇子点了主",
+        "角脖子",
+        "留下一道无形红印",
+        "倾向",
+        "D-10-03",
+        "普莉希拉",
+        "扇点脖子留红印",
+        "被动",
+        "后续可影响"
+      ],
+      "lines": [
+        "- D 36-45 / Witch / 普莉希拉",
+        "- 扇点脖子留红印。Witch +1（被动）。后续可影响 Arc 10 D-10-03"
+      ]
+    },
+    {
+      "id": "Q-3-06",
+      "arc": 3,
+      "name": "莉榭尔在王都的暗道",
+      "tendency": "Bell",
+      "recommendedTime": "D 41-50",
+      "summary": "- D 41-50 / Bell / 莉榭尔 - 走一条\"上次\"用过的小道。① 跟（K-1-08 加成 / 但 Bell +1）② 不跟",
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-3-06",
+        "莉榭尔在王都的暗道",
+        "莉榭尔",
+        "如随行",
+        "领玩家走一条她",
+        "上一次",
+        "用过的小道",
+        "K-1-08",
+        "走一条",
+        "上次",
+        "加成"
+      ],
+      "lines": [
+        "- D 41-50 / Bell / 莉榭尔",
+        "- 走一条\"上次\"用过的小道。① 跟（K-1-08 加成 / 但 Bell +1）② 不跟"
+      ]
+    },
+    {
+      "id": "Q-3-07",
+      "arc": 3,
+      "name": "雷姆的甜点",
+      "tendency": "Light",
+      "recommendedTime": "D 38-46",
+      "summary": "- D 38-46 / Light / 雷姆 - 雷姆做甜点。① 认真吃（K-2-03 加成）② 推辞（关系 -5）",
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-3-07",
+        "雷姆的甜点",
+        "雷姆给主角做一份过分",
+        "认真的甜点",
+        "K-2-03",
+        "雷姆",
+        "雷姆做甜点",
+        "认真吃",
+        "加成",
+        "推辞"
+      ],
+      "lines": [
+        "- D 38-46 / Light / 雷姆",
+        "- 雷姆做甜点。① 认真吃（K-2-03 加成）② 推辞（关系 -5）"
+      ]
+    },
+    {
+      "id": "Q-3-08",
+      "arc": 3,
+      "name": "怠惰司教的祷告本",
+      "tendency": "Truth/Bell",
+      "recommendedTime": "D 43-50",
+      "summary": "- D 43-50 / Truth/Bell / 怠惰司教 - 行动时遗落祷告本：\"等待救赎之人到来\"。① 收（K-3-04 / E-Bell 钥匙）② 烧（Bell -2） ---",
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-3-08",
+        "怠惰司教的祷告本",
+        "怠惰行动时遗落的祷告",
+        "写着",
+        "等待救赎之人到来",
+        "K-3-04",
+        "E-Bell",
+        "怠惰司教",
+        "行动时遗落祷告本",
+        "钥匙"
+      ],
+      "lines": [
+        "- D 43-50 / Truth/Bell / 怠惰司教",
+        "- 行动时遗落祷告本：\"等待救赎之人到来\"。① 收（K-3-04 / E-Bell 钥匙）② 烧（Bell -2）",
+        "---"
+      ]
+    },
+    {
+      "id": "Q-4-01",
+      "arc": 4,
+      "name": "试炼的另一面",
+      "summary": "- D 75-85 / Mirror / 自己 - 第二阶段反向观察\"另一个自己\"。① 凝视（Mirror +3）② 别过头",
+      "lines": [
+        "- D 75-85 / Mirror / 自己",
+        "- 第二阶段反向观察\"另一个自己\"。① 凝视（Mirror +3）② 别过头"
+      ],
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-4-01",
+        "试炼的另一面",
+        "第二阶段反向观察",
+        "另一个自己",
+        "凝视",
+        "别过头"
+      ]
+    },
+    {
+      "id": "Q-4-02",
+      "arc": 4,
+      "name": "加菲尔的猫",
+      "summary": "- D 65-85 / Light / 加菲尔 - 野猫朋友。① 摸（关系 +5）② 不摸",
+      "lines": [
+        "- D 65-85 / Light / 加菲尔",
+        "- 野猫朋友。① 摸（关系 +5）② 不摸"
+      ],
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-4-02",
+        "加菲尔的猫",
+        "加菲尔",
+        "野猫朋友",
+        "关系",
+        "不摸"
+      ]
+    },
+    {
+      "id": "Q-4-03",
+      "arc": 4,
+      "name": "琉兹的茶具",
+      "summary": "- D 70-110 / Truth / 琉兹 - 一套从未洗过的茶具，背后有 400 年故事。① 听（K-6-04 前置）② 不问",
+      "lines": [
+        "- D 70-110 / Truth / 琉兹",
+        "- 一套从未洗过的茶具，背后有 400 年故事。① 听（K-6-04 前置）② 不问"
+      ],
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-4-03",
+        "K-6-04",
+        "琉兹的茶具",
+        "琉兹",
+        "一套从未洗过的茶具",
+        "背后有",
+        "年故事",
+        "不问"
+      ]
+    },
+    {
+      "id": "Q-4-04",
+      "arc": 4,
+      "name": "罗兹瓦尔的旧仆",
+      "summary": "- D 80-110 / Bell / 罗兹瓦尔旧仆 - 一个老仆人记得罗兹瓦尔的过去。① 问（K-4-03 加成）② 不问",
+      "lines": [
+        "- D 80-110 / Bell / 罗兹瓦尔旧仆",
+        "- 一个老仆人记得罗兹瓦尔的过去。① 问（K-4-03 加成）② 不问"
+      ],
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-4-04",
+        "K-4-03",
+        "罗兹瓦尔的旧仆",
+        "罗兹瓦尔旧仆",
+        "一个老仆人记得罗兹瓦",
+        "尔的过去",
+        "加成",
+        "不问"
+      ]
+    },
+    {
+      "id": "Q-4-05",
+      "arc": 4,
+      "name": "雪原边的废钟",
+      "summary": "- D 95-115 / Bell/Mirror / 剥钟人 - 圣域边缘一座废钟 — 与 Arc 1 钟楼图案一样。① 接近（剥钟人显形）② 默记并离开（Bell -1）",
+      "lines": [
+        "- D 95-115 / Bell/Mirror / 剥钟人",
+        "- 圣域边缘一座废钟 — 与 Arc 1 钟楼图案一样。① 接近（剥钟人显形）② 默记并离开（Bell -1）"
+      ],
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-4-05",
+        "雪原边的废钟",
+        "剥钟人",
+        "圣域边缘一座废钟",
+        "钟楼图案一样",
+        "接近",
+        "剥钟人显形",
+        "默记并离开"
+      ]
+    },
+    {
+      "id": "Q-4-06",
+      "arc": 4,
+      "name": "帕特拉修的低吼",
+      "summary": "- D 75-115 / Light / 帕特拉修 - 地龙感知危险。① 听话退避（救一次主角）② 忽视（F-4-04 风险） ---",
+      "lines": [
+        "- D 75-115 / Light / 帕特拉修",
+        "- 地龙感知危险。① 听话退避（救一次主角）② 忽视（F-4-04 风险）",
+        "---"
+      ],
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-4-06",
+        "F-4-04",
+        "帕特拉修的低吼",
+        "帕特拉修",
+        "地龙感知危险",
+        "听话退避",
+        "救一次主角",
+        "忽视"
+      ]
+    },
+    {
+      "id": "Q-5-01",
+      "arc": 5,
+      "name": "莉莉安娜的歌",
+      "summary": "- D 130-180 / Light / 莉莉安娜 - 歌可作武器。① 求合作（K-5-01 前置）② 不打扰",
+      "lines": [
+        "- D 130-180 / Light / 莉莉安娜",
+        "- 歌可作武器。① 求合作（K-5-01 前置）② 不打扰"
+      ],
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-5-01",
+        "K-5-01",
+        "莉莉安娜的歌",
+        "莉莉安娜",
+        "歌可作武器",
+        "求合作",
+        "不打扰"
+      ]
+    },
+    {
+      "id": "Q-5-02",
+      "arc": 5,
+      "name": "海因凯尔的酒",
+      "summary": "- D 140-180 / Truth / 海因凯尔 - 酒馆碰见莱茵哈鲁特之父。① 听家史（Arc 10 钥匙加成）② 不深入",
+      "lines": [
+        "- D 140-180 / Truth / 海因凯尔",
+        "- 酒馆碰见莱茵哈鲁特之父。① 听家史（Arc 10 钥匙加成）② 不深入"
+      ],
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-5-02",
+        "海因凯尔的酒",
+        "海因凯尔",
+        "酒馆碰见莱茵哈鲁特之",
+        "听家史",
+        "钥匙加成",
+        "不深入"
+      ]
+    },
+    {
+      "id": "Q-5-03",
+      "arc": 5,
+      "name": "奇利塔卡的偶像",
+      "summary": "- D 130-180 / Light / 奇利塔卡 - 商会主对莉莉安娜狂热。① 帮他（资源 +5）② 警告他",
+      "lines": [
+        "- D 130-180 / Light / 奇利塔卡",
+        "- 商会主对莉莉安娜狂热。① 帮他（资源 +5）② 警告他"
+      ],
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-5-03",
+        "奇利塔卡的偶像",
+        "奇利塔卡",
+        "商会主对莉莉安娜狂热",
+        "帮他",
+        "资源",
+        "警告他"
+      ]
+    },
+    {
+      "id": "Q-5-04",
+      "arc": 5,
+      "name": "罗姆爷在普利斯提拉",
+      "summary": "- D 121-180（如 Arc 1 罗姆爷幸存）/ Light / 罗姆爷 - 罗姆爷在水门做苦力。① 帮他（Arc 1 残响合并）② 不见",
+      "lines": [
+        "- D 121-180（如 Arc 1 罗姆爷幸存）/ Light / 罗姆爷",
+        "- 罗姆爷在水门做苦力。① 帮他（Arc 1 残响合并）② 不见"
+      ],
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-5-04",
+        "罗姆爷在普利斯提拉",
+        "罗姆爷幸存",
+        "罗姆爷",
+        "罗姆爷在水门做苦力",
+        "帮他",
+        "残响合并",
+        "不见"
+      ]
+    },
+    {
+      "id": "Q-5-05",
+      "arc": 5,
+      "name": "水门下面的废铁",
+      "summary": "- D 146-180 / Mirror / 物证 - 水门下漂出一片废铁，刻钟楼图案。① 捞（Bell +1 / Mirror +1）② 不捞",
+      "lines": [
+        "- D 146-180 / Mirror / 物证",
+        "- 水门下漂出一片废铁，刻钟楼图案。① 捞（Bell +1 / Mirror +1）② 不捞"
+      ],
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-5-05",
+        "水门下面的废铁",
+        "物证",
+        "水门下漂出一片废铁",
+        "刻钟楼图案",
+        "不捞"
+      ]
+    },
+    {
+      "id": "Q-5-06",
+      "arc": 5,
+      "name": "剥钟人留下的钟锈坑",
+      "summary": "- D 161-195 / Bell / 剥钟人 - 水门城关附近一个 1 米直径的钟锈坑。① 调查（K-8-03 前置）② 远离 ---",
+      "lines": [
+        "- D 161-195 / Bell / 剥钟人",
+        "- 水门城关附近一个 1 米直径的钟锈坑。① 调查（K-8-03 前置）② 远离",
+        "---"
+      ],
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-5-06",
+        "K-8-03",
+        "剥钟人留下的钟锈坑",
+        "剥钟人",
+        "水门城关附近一个",
+        "米直径的钟锈坑",
+        "调查",
+        "远离"
+      ]
+    },
+    {
+      "id": "Q-6-01",
+      "arc": 6,
+      "name": "沙乌拉的笑话",
+      "summary": "- D 221-300 / Light / 沙乌拉 - 一连串自嘲笑话。① 笑（沙乌拉信任 +10）② 不笑",
+      "lines": [
+        "- D 221-300 / Light / 沙乌拉",
+        "- 一连串自嘲笑话。① 笑（沙乌拉信任 +10）② 不笑"
+      ],
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-6-01",
+        "沙乌拉的笑话",
+        "沙乌拉",
+        "一连串自嘲笑话",
+        "沙乌拉信任",
+        "不笑"
+      ]
+    },
+    {
+      "id": "Q-6-02",
+      "arc": 6,
+      "name": "月星的孤独",
+      "summary": "- D 241-340 / Mirror / 月星 - 月星深夜哭。① 陪一会（K-6-04 前置）② 不打扰",
+      "lines": [
+        "- D 241-340 / Mirror / 月星",
+        "- 月星深夜哭。① 陪一会（K-6-04 前置）② 不打扰"
+      ],
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-6-02",
+        "K-6-04",
+        "月星的孤独",
+        "月星",
+        "月星深夜哭",
+        "陪一会",
+        "不打扰"
+      ]
+    },
+    {
+      "id": "Q-6-03",
+      "arc": 6,
+      "name": "一段 400 年前的信",
+      "summary": "- D 281-340 / Truth / 旧档案 - 信里写\"等待我\"。① 与欧文档案对接（K-6-06）② 自行解读（Bell +1）",
+      "lines": [
+        "- D 281-340 / Truth / 旧档案",
+        "- 信里写\"等待我\"。① 与欧文档案对接（K-6-06）② 自行解读（Bell +1）"
+      ],
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-6-03",
+        "K-6-06",
+        "一段",
+        "年前的信",
+        "旧档案",
+        "信里写",
+        "等待我",
+        "与欧文档案对接"
+      ]
+    },
+    {
+      "id": "Q-6-04",
+      "arc": 6,
+      "name": "暴食的甜",
+      "summary": "- D 281-340 / Witch/Bell / 路易残党 - 一块从未存在过的甜点。① 吃（F-6-04）② 不吃",
+      "lines": [
+        "- D 281-340 / Witch/Bell / 路易残党",
+        "- 一块从未存在过的甜点。① 吃（F-6-04）② 不吃"
+      ],
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-6-04",
+        "F-6-04",
+        "暴食的甜",
+        "路易残党",
+        "一块从未存在过的甜点",
+        "不吃"
+      ]
+    },
+    {
+      "id": "Q-6-05",
+      "arc": 6,
+      "name": "砂丘里的另一座废钟",
+      "summary": "- D 201-260 / Bell / 剥钟人 - 砂丘深处一座废钟。① 接近（剥钟人 Arc 6 显形）② 绕走 ---",
+      "lines": [
+        "- D 201-260 / Bell / 剥钟人",
+        "- 砂丘深处一座废钟。① 接近（剥钟人 Arc 6 显形）② 绕走",
+        "---"
+      ],
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-6-05",
+        "砂丘里的另一座废钟",
+        "剥钟人",
+        "砂丘深处一座废钟",
+        "接近",
+        "显形",
+        "绕走"
+      ]
+    },
+    {
+      "id": "Q-7-01",
+      "arc": 7,
+      "name": "弗洛普的买卖",
+      "summary": "- D 401-540 / Light / 弗洛普 - 一笔奇怪的买卖。① 入伙（资源 +20）② 拒",
+      "lines": [
+        "- D 401-540 / Light / 弗洛普",
+        "- 一笔奇怪的买卖。① 入伙（资源 +20）② 拒"
+      ],
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-7-01",
+        "弗洛普的买卖",
+        "弗洛普",
+        "一笔奇怪的买卖",
+        "入伙",
+        "资源"
+      ]
+    },
+    {
+      "id": "Q-7-02",
+      "arc": 7,
+      "name": "米蒂姆的拳击",
+      "summary": "- D 421-540 / Light / 米蒂姆 - 米蒂姆陪练。① 接受（战斗经验 +1）② 拒（关系 -5）",
+      "lines": [
+        "- D 421-540 / Light / 米蒂姆",
+        "- 米蒂姆陪练。① 接受（战斗经验 +1）② 拒（关系 -5）"
+      ],
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-7-02",
+        "米蒂姆的拳击",
+        "米蒂姆",
+        "米蒂姆陪练",
+        "接受",
+        "战斗经验",
+        "关系"
+      ]
+    },
+    {
+      "id": "Q-7-03",
+      "arc": 7,
+      "name": "塞西尔斯的剧场",
+      "summary": "- D 441-520 / Mirror / 塞西尔斯 - 邀玩家参演他的\"舞台\"。① 演（Mirror +2，可能 F-7-04 风险）② 婉拒",
+      "lines": [
+        "- D 441-520 / Mirror / 塞西尔斯",
+        "- 邀玩家参演他的\"舞台\"。① 演（Mirror +2，可能 F-7-04 风险）② 婉拒"
+      ],
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-7-03",
+        "F-7-04",
+        "塞西尔斯的剧场",
+        "塞西尔斯",
+        "邀玩家参演他的",
+        "舞台",
+        "可能",
+        "风险"
+      ]
+    },
+    {
+      "id": "Q-7-04",
+      "arc": 7,
+      "name": "哈利贝尔的酒",
+      "summary": "- D 481-540 / Truth / 哈利贝尔 - 酒馆碰面。① 聊（卡拉拉基线索）② 不聊",
+      "lines": [
+        "- D 481-540 / Truth / 哈利贝尔",
+        "- 酒馆碰面。① 聊（卡拉拉基线索）② 不聊"
+      ],
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-7-04",
+        "哈利贝尔的酒",
+        "哈利贝尔",
+        "酒馆碰面",
+        "卡拉拉基线索",
+        "不聊"
+      ]
+    },
+    {
+      "id": "Q-7-05",
+      "arc": 7,
+      "name": "帝都的废钟",
+      "summary": "- D 461-540 / Bell / 剥钟人 - 帝都未被记录的废钟。① 调查（Bell +2）② 不调查 ---",
+      "lines": [
+        "- D 461-540 / Bell / 剥钟人",
+        "- 帝都未被记录的废钟。① 调查（Bell +2）② 不调查",
+        "---"
+      ],
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-7-05",
+        "帝都的废钟",
+        "剥钟人",
+        "帝都未被记录的废钟",
+        "调查",
+        "不调查"
+      ]
+    },
+    {
+      "id": "Q-8-01",
+      "arc": 8,
+      "name": "一个普通士兵的家书",
+      "summary": "- D 541-720 / Truth / 路边 - 战地遗物。① 寻家人送达（人情 +5，平民信任）② 不管",
+      "lines": [
+        "- D 541-720 / Truth / 路边",
+        "- 战地遗物。① 寻家人送达（人情 +5，平民信任）② 不管"
+      ],
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-8-01",
+        "一个普通士兵的家书",
+        "路边",
+        "战地遗物",
+        "寻家人送达",
+        "人情",
+        "平民信任",
+        "不管"
+      ]
+    },
+    {
+      "id": "Q-8-02",
+      "arc": 8,
+      "name": "米蒂姆的告别",
+      "summary": "- D 681-720 / Light / 米蒂姆（如已重伤） - 临别一句话。① 承诺（K-8-02 加成）② 不应",
+      "lines": [
+        "- D 681-720 / Light / 米蒂姆（如已重伤）",
+        "- 临别一句话。① 承诺（K-8-02 加成）② 不应"
+      ],
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-8-02",
+        "K-8-02",
+        "米蒂姆的告别",
+        "米蒂姆",
+        "如已重伤",
+        "临别一句话",
+        "承诺",
+        "加成"
+      ]
+    },
+    {
+      "id": "Q-8-03",
+      "arc": 8,
+      "name": "哈利贝尔的迟到",
+      "summary": "- D 661-720 / Light/Mirror / 哈利贝尔 - 关键时刻他迟到 — 与莱茵哈鲁特同款（Mirror +2 候选）",
+      "lines": [
+        "- D 661-720 / Light/Mirror / 哈利贝尔",
+        "- 关键时刻他迟到 — 与莱茵哈鲁特同款（Mirror +2 候选）"
+      ],
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-8-03",
+        "哈利贝尔的迟到",
+        "哈利贝尔",
+        "关键时刻他迟到",
+        "与莱茵哈鲁特同款"
+      ]
+    },
+    {
+      "id": "Q-8-04",
+      "arc": 8,
+      "name": "一座废钟在大灾后浮出",
+      "summary": "- D 581-720 / Bell / 物证 - 大灾后从瓦砾里浮出一座小废钟。① 收（Bell 钥匙）② 砸",
+      "lines": [
+        "- D 581-720 / Bell / 物证",
+        "- 大灾后从瓦砾里浮出一座小废钟。① 收（Bell 钥匙）② 砸"
+      ],
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-8-04",
+        "一座废钟在大灾后浮出",
+        "物证",
+        "大灾后从瓦砾里浮出一",
+        "座小废钟",
+        "钥匙"
+      ]
+    },
+    {
+      "id": "Q-8-05",
+      "arc": 8,
+      "name": "帝国孩子的歌",
+      "summary": "- D 641-720 / Light / 路边孩子 - 难民孩子唱歌。① 加入（精神 +5）② 走开 ---",
+      "lines": [
+        "- D 641-720 / Light / 路边孩子",
+        "- 难民孩子唱歌。① 加入（精神 +5）② 走开",
+        "---"
+      ],
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-8-05",
+        "帝国孩子的歌",
+        "路边孩子",
+        "难民孩子唱歌",
+        "加入",
+        "精神",
+        "走开"
+      ]
+    },
+    {
+      "id": "Q-9-01",
+      "arc": 9,
+      "name": "雪原孩子的梦",
+      "summary": "- D 761-820 / Light/Mirror / 朝圣者 - 孩子梦到主角的过去。① 问详情（Mirror 钥匙）② 含糊",
+      "lines": [
+        "- D 761-820 / Light/Mirror / 朝圣者",
+        "- 孩子梦到主角的过去。① 问详情（Mirror 钥匙）② 含糊"
+      ],
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-9-01",
+        "雪原孩子的梦",
+        "朝圣者",
+        "孩子梦到主角的过去",
+        "问详情",
+        "钥匙",
+        "含糊"
+      ]
+    },
+    {
+      "id": "Q-9-02",
+      "arc": 9,
+      "name": "朝圣者的火",
+      "summary": "- D 761-820 / Truth / 朝圣者 - 围炉。① 加入（K-9-03 前置）② 远观",
+      "lines": [
+        "- D 761-820 / Truth / 朝圣者",
+        "- 围炉。① 加入（K-9-03 前置）② 远观"
+      ],
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-9-02",
+        "K-9-03",
+        "朝圣者的火",
+        "朝圣者",
+        "围炉",
+        "加入",
+        "远观"
+      ]
+    },
+    {
+      "id": "Q-9-03",
+      "arc": 9,
+      "name": "教区图书馆",
+      "summary": "- D 821-870 / Truth / 主祭 - 一本写\"被选中的异乡人\"的旧书。① 读（K-9-01 加成）② 不读",
+      "lines": [
+        "- D 821-870 / Truth / 主祭",
+        "- 一本写\"被选中的异乡人\"的旧书。① 读（K-9-01 加成）② 不读"
+      ],
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-9-03",
+        "K-9-01",
+        "教区图书馆",
+        "主祭",
+        "一本写",
+        "被选中的异乡人",
+        "的旧书",
+        "加成"
+      ]
+    },
+    {
+      "id": "Q-9-04",
+      "arc": 9,
+      "name": "雪原废钟",
+      "summary": "- D 800-870 / Bell / 剥钟人 - 又一座废钟。剥钟人最后的据点。① 调查（Bell 钥匙）② 远离",
+      "lines": [
+        "- D 800-870 / Bell / 剥钟人",
+        "- 又一座废钟。剥钟人最后的据点。① 调查（Bell 钥匙）② 远离"
+      ],
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-9-04",
+        "雪原废钟",
+        "剥钟人",
+        "又一座废钟",
+        "剥钟人最后的据点",
+        "调查",
+        "钥匙",
+        "远离"
+      ]
+    },
+    {
+      "id": "Q-9-05",
+      "arc": 9,
+      "name": "冷源边缘的呼喊",
+      "summary": "- D 871-895 / Mirror / 自己的声音 - 听见自己的呼喊从冷源里出来。① 走入（F-9-05 风险）② 撤退 ---",
+      "lines": [
+        "- D 871-895 / Mirror / 自己的声音",
+        "- 听见自己的呼喊从冷源里出来。① 走入（F-9-05 风险）② 撤退",
+        "---"
+      ],
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-9-05",
+        "F-9-05",
+        "冷源边缘的呼喊",
+        "自己的声音",
+        "听见自己的呼喊从冷源",
+        "里出来",
+        "走入",
+        "风险"
+      ]
+    },
+    {
+      "id": "Q-10-01",
+      "arc": 10,
+      "name": "王都贫民区的旧人",
+      "summary": "- D 901-1000（如 Arc 1 米娅/莉雪/罗姆爷幸存）/ Light / 旧人 - 时隔多年再见。① 拥抱（关系 +30）② 装陌生",
+      "lines": [
+        "- D 901-1000（如 Arc 1 米娅/莉雪/罗姆爷幸存）/ Light / 旧人",
+        "- 时隔多年再见。① 拥抱（关系 +30）② 装陌生"
+      ],
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-10-01",
+        "王都贫民区的旧人",
+        "米娅",
+        "莉雪",
+        "罗姆爷幸存",
+        "旧人",
+        "时隔多年再见",
+        "拥抱"
+      ]
+    },
+    {
+      "id": "Q-10-02",
+      "arc": 10,
+      "name": "莱茵哈鲁特的剑",
+      "summary": "- D 941-1080 / Light / 莱茵哈鲁特 - 剑圣 800 年的剑给玩家看。① 礼貌（关系 +10）② 触碰（剑反应）",
+      "lines": [
+        "- D 941-1080 / Light / 莱茵哈鲁特",
+        "- 剑圣 800 年的剑给玩家看。① 礼貌（关系 +10）② 触碰（剑反应）"
+      ],
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-10-02",
+        "莱茵哈鲁特的剑",
+        "莱茵哈鲁特",
+        "剑圣",
+        "年的剑给玩家看",
+        "礼貌",
+        "关系",
+        "触碰"
+      ]
+    },
+    {
+      "id": "Q-10-03",
+      "arc": 10,
+      "name": "菲鲁特的王冠",
+      "summary": "- D 1051-1080 / Light / 菲鲁特 - 试戴。① 鼓励她（D-10-02 偏离 +1）② 担心",
+      "lines": [
+        "- D 1051-1080 / Light / 菲鲁特",
+        "- 试戴。① 鼓励她（D-10-02 偏离 +1）② 担心"
+      ],
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-10-03",
+        "D-10-02",
+        "菲鲁特的王冠",
+        "菲鲁特",
+        "试戴",
+        "鼓励她",
+        "偏离",
+        "担心"
+      ]
+    },
+    {
+      "id": "Q-10-04",
+      "arc": 10,
+      "name": "王都废钟的回响",
+      "summary": "- D 1001-1080 / Bell / 剥钟人 - 王都钟楼最后一响。① 上钟楼（剥钟人最终对决）② 远离",
+      "lines": [
+        "- D 1001-1080 / Bell / 剥钟人",
+        "- 王都钟楼最后一响。① 上钟楼（剥钟人最终对决）② 远离"
+      ],
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-10-04",
+        "王都废钟的回响",
+        "剥钟人",
+        "王都钟楼最后一响",
+        "上钟楼",
+        "剥钟人最终对决",
+        "远离"
+      ]
+    },
+    {
+      "id": "Q-10-05",
+      "arc": 10,
+      "name": "嫉妒魔女的影子",
+      "summary": "- D 1001-1080 / Witch/Mirror / 嫉妒魔女 - 影子掠过墙角。① 转头（注视 +2）② 不动 ---",
+      "lines": [
+        "- D 1001-1080 / Witch/Mirror / 嫉妒魔女",
+        "- 影子掠过墙角。① 转头（注视 +2）② 不动",
+        "---"
+      ],
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-10-05",
+        "嫉妒魔女的影子",
+        "嫉妒魔女",
+        "影子掠过墙角",
+        "转头",
+        "注视",
+        "不动"
+      ]
+    },
+    {
+      "id": "Q-11-01",
+      "arc": 11,
+      "name": "莉雪最后一片记忆",
+      "summary": "- D 1078-1098 / 通用 / 莉雪 - 她给你看她还记得的最后一片。可作为 E-True 钥匙补全。",
+      "lines": [
+        "- D 1078-1098 / 通用 / 莉雪",
+        "- 她给你看她还记得的最后一片。可作为 E-True 钥匙补全。"
+      ],
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-11-01",
+        "E-True",
+        "莉雪最后一片记忆",
+        "通用",
+        "莉雪",
+        "她给你看她还记得的最",
+        "后一片",
+        "可作为"
+      ]
+    },
+    {
+      "id": "Q-11-02",
+      "arc": 11,
+      "name": "欧文的最后一页档案",
+      "summary": "- D 1078-1098 / Truth / 欧文 - 让玩家在最后一页签名 → E-Truth 钥匙。",
+      "lines": [
+        "- D 1078-1098 / Truth / 欧文",
+        "- 让玩家在最后一页签名 → E-Truth 钥匙。"
+      ],
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-11-02",
+        "E-Truth",
+        "欧文的最后一页档案",
+        "欧文",
+        "让玩家在最后一页签名",
+        "钥匙"
+      ]
+    },
+    {
+      "id": "Q-11-03",
+      "arc": 11,
+      "name": "米娅长大了",
+      "summary": "- D 1078-1098 / Light / 米娅（如幸存） - 米娅现在 17 岁。她想说一句话。",
+      "lines": [
+        "- D 1078-1098 / Light / 米娅（如幸存）",
+        "- 米娅现在 17 岁。她想说一句话。"
+      ],
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-11-03",
+        "米娅长大了",
+        "米娅",
+        "如幸存",
+        "米娅现在",
+        "她想说一句话"
+      ]
+    },
+    {
+      "id": "Q-11-04",
+      "arc": 11,
+      "name": "剥钟人的真名",
+      "summary": "- D 1080-1098 / Bell / 剥钟人 - 揭示剥钟人的\"原名\"。可能就是某个角色的镜像。",
+      "lines": [
+        "- D 1080-1098 / Bell / 剥钟人",
+        "- 揭示剥钟人的\"原名\"。可能就是某个角色的镜像。"
+      ],
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-11-04",
+        "剥钟人的真名",
+        "剥钟人",
+        "揭示剥钟人的",
+        "原名",
+        "可能就是某个角色的镜"
+      ]
+    },
+    {
+      "id": "Q-11-05",
+      "arc": 11,
+      "name": "莎缇拉的礼物",
+      "summary": "- D 1090-1100 / Witch / 莎缇拉 - 莎缇拉给玩家一个小盒子。盒里是什么取决于走过的路径（每个终局不同）。 --- 1. 把所有支线 Q-X-XX 解析为 state.sideQuests 字典，每条记录 triggered: bool, branch: string, completedAt: day。 2. 后端世界推演每轮按 Arc + 倾向匹配，从未触发支线池里抽 0-2 个写入 pendingReveal",
+      "lines": [
+        "- D 1090-1100 / Witch / 莎缇拉",
+        "- 莎缇拉给玩家一个小盒子。盒里是什么取决于走过的路径（每个终局不同）。",
+        "---",
+        "1. 把所有支线 Q-X-XX 解析为 state.sideQuests 字典，每条记录 triggered: bool, branch: string, completedAt: day。",
+        "2. 后端世界推演每轮按 Arc + 倾向匹配，从未触发支线池里抽 0-2 个写入 pendingReveals 同级的 pendingSideQuests。",
+        "3. 玩家自然行动如果命中支线触发条件（关键词识别），状态机也可主动激活。",
+        "4. 支线完成后影响（钥匙 / 标记 / 关系 / 资源）通过 mergeStatePatch 落地。",
+        "5. 玩家可输入 支线列表 或 Q 列表 命令查看已触发 / 未触发。",
+        "6. 支线之间的连锁关系（如 Q-1-01 ③ → Q-1-05）用 unlocksSideQuests 字段标记。"
+      ],
+      "source": "data/default-user/re0-engine/storylines/SIDE_QUEST_LIBRARY.md",
+      "keywords": [
+        "Q-11-05",
+        "莎缇拉的礼物",
+        "莎缇拉",
+        "莎缇拉给玩家一个小盒",
+        "盒里是什么取决于走过",
+        "的路径",
+        "每个终局不同",
+        "把所有支线"
+      ]
+    }
+  ],
+  "remoteSignals": [
+    {
+      "arc": 1,
+      "channel": "卡拉拉基商路传言",
+      "samples": "\"听说王都最近钱币里多了几枚没见过的边纹\" / \"莱茵哈鲁特调令晚了三天，路上一切平静得反常\"",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc01-royal-capital.md",
+      "keywords": [
+        "卡拉拉基商路传言",
+        "听说王都最近钱币里多",
+        "了几枚没见过的边纹",
+        "莱茵哈鲁特调令晚了三",
+        "路上一切平静得反常"
+      ]
+    },
+    {
+      "arc": 1,
+      "channel": "佛拉基亚商旅信件",
+      "samples": "\"帝国货车昨夜被劫，劫匪没动金币只拿了一片废铁\" / \"九神将之一最近在边境多看了一眼西方\"",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc01-royal-capital.md",
+      "keywords": [
+        "佛拉基亚商旅信件",
+        "帝国货车昨夜被劫",
+        "劫匪没动金币只拿了一",
+        "片废铁",
+        "九神将之一最近在边境",
+        "多看了一眼西方"
+      ]
+    },
+    {
+      "arc": 1,
+      "channel": "雪原朝圣者口供",
+      "samples": "\"古斯提科的雪今年下得早，精灵信徒梦到一座废弃钟楼\" / \"雪原孩子说梦里有个银发的人在哭\"",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc01-royal-capital.md",
+      "keywords": [
+        "雪原朝圣者口供",
+        "古斯提科的雪今年下得",
+        "精灵信徒梦到一座废弃",
+        "钟楼",
+        "雪原孩子说梦里有个银",
+        "发的人在哭"
+      ]
+    },
+    {
+      "arc": 1,
+      "channel": "普利斯提拉魔矿商汇报",
+      "samples": "\"魔矿石价格在四个商会同时涨价；有人在囤\" / \"水门城关接到一封没有署名的预警\"",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc01-royal-capital.md",
+      "keywords": [
+        "普利斯提拉魔矿商汇报",
+        "魔矿石价格在四个商会",
+        "同时涨价",
+        "有人在囤",
+        "水门城关接到一封没有",
+        "署名的预警"
+      ]
+    },
+    {
+      "arc": 1,
+      "channel": "边境梦境残响",
+      "samples": "\"监视塔今晨记录的星名缺失了一个\" / \"奥格利亚砂丘的沙形成了钟的形状\"",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc01-royal-capital.md",
+      "keywords": [
+        "边境梦境残响",
+        "监视塔今晨记录的星名",
+        "缺失了一个",
+        "奥格利亚砂丘的沙形成",
+        "了钟的形状"
+      ]
+    },
+    {
+      "arc": 1,
+      "channel": "王都市井闲话",
+      "samples": "\"废钟楼连续三晚响了\" / \"贫民区有个穿黑伞的修女见谁就笑\" / \"盗品蔵今晚不接生客\"",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc01-royal-capital.md",
+      "keywords": [
+        "王都市井闲话",
+        "废钟楼连续三晚响了",
+        "贫民区有个穿黑伞的修",
+        "女见谁就笑",
+        "盗品蔵今晚不接生客"
+      ]
+    },
+    {
+      "arc": 1,
+      "channel": "区域文书延迟",
+      "samples": "\"贵族院调令比往日晚发出 4 个时辰，原因不明\"",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc01-royal-capital.md",
+      "keywords": [
+        "区域文书延迟",
+        "贵族院调令比往日晚发",
+        "个时辰",
+        "原因不明"
+      ]
+    },
+    {
+      "arc": 2,
+      "channel": "卡拉拉基商路",
+      "samples": "阿拉姆村的木材订单突然加倍",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc02-mansion-massacre.md",
+      "keywords": [
+        "卡拉拉基商路",
+        "阿拉姆村的木材订单突",
+        "然加倍"
+      ]
+    },
+    {
+      "arc": 2,
+      "channel": "佛拉基亚商旅",
+      "samples": "帝国密使送来一封写给罗兹瓦尔的信，被退回",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc02-mansion-massacre.md",
+      "keywords": [
+        "佛拉基亚商旅",
+        "帝国密使送来一封写给",
+        "罗兹瓦尔的信",
+        "被退回"
+      ]
+    },
+    {
+      "arc": 2,
+      "channel": "雪原朝圣者",
+      "samples": "古斯提科精灵感受到福音书页的\"颤动\"",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc02-mansion-massacre.md",
+      "keywords": [
+        "雪原朝圣者",
+        "古斯提科精灵感受到福",
+        "音书页的",
+        "颤动"
+      ]
+    },
+    {
+      "arc": 2,
+      "channel": "普利斯提拉魔矿商",
+      "samples": "魔矿石的价格再次上扬，方向指向监视塔砂丘",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc02-mansion-massacre.md",
+      "keywords": [
+        "普利斯提拉魔矿商",
+        "魔矿石的价格再次上扬",
+        "方向指向监视塔砂丘"
+      ]
+    },
+    {
+      "arc": 2,
+      "channel": "边境梦境残响",
+      "samples": "监视塔的某个房间响过一次废钟图案的回声",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc02-mansion-massacre.md",
+      "keywords": [
+        "边境梦境残响",
+        "监视塔的某个房间响过",
+        "一次废钟图案的回声"
+      ]
+    },
+    {
+      "arc": 2,
+      "channel": "王都市井闲话",
+      "samples": "莱茵哈鲁特最近在调查\"被抹去的近卫团旧档\"",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc02-mansion-massacre.md",
+      "keywords": [
+        "王都市井闲话",
+        "莱茵哈鲁特最近在调查",
+        "被抹去的近卫团旧档"
+      ]
+    },
+    {
+      "arc": 2,
+      "channel": "区域文书延迟",
+      "samples": "贵族院对边境伯下达的指令延后 3 天",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc02-mansion-massacre.md",
+      "keywords": [
+        "区域文书延迟",
+        "贵族院对边境伯下达的",
+        "指令延后"
+      ]
+    },
+    {
+      "arc": 3,
+      "channel": "卡拉拉基商路",
+      "samples": "安娜塔西亚商会突然在卡拉拉基大量买入\"耐久符\"",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc03-white-whale-sloth.md",
+      "keywords": [
+        "卡拉拉基商路",
+        "安娜塔西亚商会突然在",
+        "卡拉拉基大量买入",
+        "耐久符"
+      ]
+    },
+    {
+      "arc": 3,
+      "channel": "佛拉基亚商旅",
+      "samples": "帝国密使送来一份\"白鲸尸骸价格\"的报价单",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc03-white-whale-sloth.md",
+      "keywords": [
+        "佛拉基亚商旅",
+        "帝国密使送来一份",
+        "白鲸尸骸价格",
+        "的报价单"
+      ]
+    },
+    {
+      "arc": 3,
+      "channel": "雪原朝圣者",
+      "samples": "古斯提科教区传出\"主角能听见看不见的手\"的谣言",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc03-white-whale-sloth.md",
+      "keywords": [
+        "雪原朝圣者",
+        "古斯提科教区传出",
+        "主角能听见看不见的手",
+        "的谣言"
+      ]
+    },
+    {
+      "arc": 3,
+      "channel": "普利斯提拉魔矿商",
+      "samples": "控制塔接到一封怠惰司教指纹的祷告页",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc03-white-whale-sloth.md",
+      "keywords": [
+        "普利斯提拉魔矿商",
+        "控制塔接到一封怠惰司",
+        "教指纹的祷告页"
+      ]
+    },
+    {
+      "arc": 3,
+      "channel": "边境梦境残响",
+      "samples": "监视塔记录\"莉雪记忆\"波形异常",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc03-white-whale-sloth.md",
+      "keywords": [
+        "边境梦境残响",
+        "监视塔记录",
+        "莉雪记忆",
+        "波形异常"
+      ]
+    },
+    {
+      "arc": 3,
+      "channel": "王都市井闲话",
+      "samples": "王都贫民区开始传\"剑鬼老人愿意再杀一次白鲸\"",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc03-white-whale-sloth.md",
+      "keywords": [
+        "王都市井闲话",
+        "王都贫民区开始传",
+        "剑鬼老人愿意再杀一次",
+        "白鲸"
+      ]
+    },
+    {
+      "arc": 3,
+      "channel": "区域文书延迟",
+      "samples": "贵族院对白鲸出击命令延迟到 D 40，玩家可加速",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc03-white-whale-sloth.md",
+      "keywords": [
+        "区域文书延迟",
+        "贵族院对白鲸出击命令",
+        "延迟到",
+        "玩家可加速"
+      ]
+    },
+    {
+      "arc": 4,
+      "channel": "卡拉拉基",
+      "samples": "安娜塔西亚商会暗中观察圣域；尤里乌斯被派来打探",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc04-sanctuary-trials.md",
+      "keywords": [
+        "卡拉拉基",
+        "安娜塔西亚商会暗中观",
+        "察圣域",
+        "尤里乌斯被派来打探"
+      ]
+    },
+    {
+      "arc": 4,
+      "channel": "佛拉基亚",
+      "samples": "帝国密使第三次发来信件，谈\"福音书的市场价\"",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc04-sanctuary-trials.md",
+      "keywords": [
+        "佛拉基亚",
+        "帝国密使第三次发来信",
+        "福音书的市场价"
+      ]
+    },
+    {
+      "arc": 4,
+      "channel": "雪原",
+      "samples": "古斯提科精灵开始梦到\"复制体\"",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc04-sanctuary-trials.md",
+      "keywords": [
+        "雪原",
+        "古斯提科精灵开始梦到",
+        "复制体"
+      ]
+    },
+    {
+      "arc": 4,
+      "channel": "普利斯提拉",
+      "samples": "控制塔记录\"圣域震荡波\"",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc04-sanctuary-trials.md",
+      "keywords": [
+        "普利斯提拉",
+        "控制塔记录",
+        "圣域震荡波"
+      ]
+    },
+    {
+      "arc": 4,
+      "channel": "边境梦境",
+      "samples": "监视塔的某位贤者候补对圣域有不安",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc04-sanctuary-trials.md",
+      "keywords": [
+        "边境梦境",
+        "监视塔的某位贤者候补",
+        "对圣域有不安"
+      ]
+    },
+    {
+      "arc": 4,
+      "channel": "王都",
+      "samples": "莱茵哈鲁特要求骑士团派人到圣域，被贵族院驳回",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc04-sanctuary-trials.md",
+      "keywords": [
+        "王都",
+        "莱茵哈鲁特要求骑士团",
+        "派人到圣域",
+        "被贵族院驳回"
+      ]
+    },
+    {
+      "arc": 4,
+      "channel": "文书延迟",
+      "samples": "阿拉姆村税单延迟 60 天",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc04-sanctuary-trials.md",
+      "keywords": [
+        "文书延迟",
+        "阿拉姆村税单延迟"
+      ]
+    },
+    {
+      "arc": 5,
+      "channel": "卡拉拉基",
+      "samples": "商会大规模撤资普利斯提拉",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc05-priestella-disaster.md",
+      "keywords": [
+        "卡拉拉基",
+        "商会大规模撤资普利斯",
+        "提拉"
+      ]
+    },
+    {
+      "arc": 5,
+      "channel": "佛拉基亚",
+      "samples": "帝国\"借机渗透\"密使",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc05-priestella-disaster.md",
+      "keywords": [
+        "佛拉基亚",
+        "帝国",
+        "借机渗透",
+        "密使"
+      ]
+    },
+    {
+      "arc": 5,
+      "channel": "雪原",
+      "samples": "古斯提科教区\"为水门祈福\"",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc05-priestella-disaster.md",
+      "keywords": [
+        "雪原",
+        "古斯提科教区",
+        "为水门祈福"
+      ]
+    },
+    {
+      "arc": 5,
+      "channel": "普利斯提拉",
+      "samples": "本地（不是远方）— 主线",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc05-priestella-disaster.md",
+      "keywords": [
+        "普利斯提拉",
+        "本地",
+        "不是远方",
+        "主线"
+      ]
+    },
+    {
+      "arc": 5,
+      "channel": "边境梦境",
+      "samples": "监视塔记录五道大罪能量",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc05-priestella-disaster.md",
+      "keywords": [
+        "边境梦境",
+        "监视塔记录五道大罪能"
+      ]
+    },
+    {
+      "arc": 5,
+      "channel": "王都",
+      "samples": "王选会议召开特别会议",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc05-priestella-disaster.md",
+      "keywords": [
+        "王都",
+        "王选会议召开特别会议"
+      ]
+    },
+    {
+      "arc": 5,
+      "channel": "文书延迟",
+      "samples": "普利斯提拉水门修缮预算延迟 90 天",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc05-priestella-disaster.md",
+      "keywords": [
+        "文书延迟",
+        "普利斯提拉水门修缮预",
+        "算延迟"
+      ]
+    },
+    {
+      "arc": 6,
+      "channel": "卡拉拉基",
+      "samples": "监视塔守门人沙乌拉的笑话流传到商路",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc06-watchtower.md",
+      "keywords": [
+        "卡拉拉基",
+        "监视塔守门人沙乌拉的",
+        "笑话流传到商路"
+      ]
+    },
+    {
+      "arc": 6,
+      "channel": "佛拉基亚",
+      "samples": "帝国\"借机攻打监视塔\"的计划被搁置",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc06-watchtower.md",
+      "keywords": [
+        "佛拉基亚",
+        "帝国",
+        "借机攻打监视塔",
+        "的计划被搁置"
+      ]
+    },
+    {
+      "arc": 6,
+      "channel": "雪原",
+      "samples": "古斯提科精灵感受到\"古老的呼喊\"",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc06-watchtower.md",
+      "keywords": [
+        "雪原",
+        "古斯提科精灵感受到",
+        "古老的呼喊"
+      ]
+    },
+    {
+      "arc": 6,
+      "channel": "普利斯提拉",
+      "samples": "（上一 Arc 的残响）水门下面飘来一封信",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc06-watchtower.md",
+      "keywords": [
+        "普利斯提拉",
+        "上一",
+        "的残响",
+        "水门下面飘来一封信"
+      ]
+    },
+    {
+      "arc": 6,
+      "channel": "边境梦境",
+      "samples": "监视塔本身就是远方信号源",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc06-watchtower.md",
+      "keywords": [
+        "边境梦境",
+        "监视塔本身就是远方信",
+        "号源"
+      ]
+    },
+    {
+      "arc": 6,
+      "channel": "王都",
+      "samples": "王都贵族询问\"监视塔守门人是谁的女儿\"",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc06-watchtower.md",
+      "keywords": [
+        "王都",
+        "王都贵族询问",
+        "监视塔守门人是谁的女"
+      ]
+    },
+    {
+      "arc": 6,
+      "channel": "文书延迟",
+      "samples": "砂丘的官方地图被擦去 1 处",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc06-watchtower.md",
+      "keywords": [
+        "文书延迟",
+        "砂丘的官方地图被擦去"
+      ]
+    },
+    {
+      "arc": 7,
+      "channel": "卡拉拉基",
+      "samples": "安娜塔西亚商会插手帝国军火",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc07-vollachia-imperial.md",
+      "keywords": [
+        "卡拉拉基",
+        "安娜塔西亚商会插手帝",
+        "国军火"
+      ]
+    },
+    {
+      "arc": 7,
+      "channel": "佛拉基亚",
+      "samples": "这里就是本地",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc07-vollachia-imperial.md",
+      "keywords": [
+        "佛拉基亚",
+        "这里就是本地"
+      ]
+    },
+    {
+      "arc": 7,
+      "channel": "雪原",
+      "samples": "古斯提科开始议论\"帝国变天\"",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc07-vollachia-imperial.md",
+      "keywords": [
+        "雪原",
+        "古斯提科开始议论",
+        "帝国变天"
+      ]
+    },
+    {
+      "arc": 7,
+      "channel": "普利斯提拉",
+      "samples": "水门重建延期，因为帝国订单",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc07-vollachia-imperial.md",
+      "keywords": [
+        "普利斯提拉",
+        "水门重建延期",
+        "因为帝国订单"
+      ]
+    },
+    {
+      "arc": 7,
+      "channel": "边境梦境",
+      "samples": "监视塔记录\"文森特身份\"",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc07-vollachia-imperial.md",
+      "keywords": [
+        "边境梦境",
+        "监视塔记录",
+        "文森特身份"
+      ]
+    },
+    {
+      "arc": 7,
+      "channel": "王都",
+      "samples": "王选会议讨论与帝国的贸易",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc07-vollachia-imperial.md",
+      "keywords": [
+        "王都",
+        "王选会议讨论与帝国的",
+        "贸易"
+      ]
+    },
+    {
+      "arc": 7,
+      "channel": "文书延迟",
+      "samples": "帝国密信向王都延误 30 天",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc07-vollachia-imperial.md",
+      "keywords": [
+        "文书延迟",
+        "帝国密信向王都延误"
+      ]
+    },
+    {
+      "arc": 8,
+      "channel": "卡拉拉基",
+      "samples": "帝国难民涌入卡拉拉基",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc08-vollachia-catastrophe.md",
+      "keywords": [
+        "卡拉拉基",
+        "帝国难民涌入卡拉拉基"
+      ]
+    },
+    {
+      "arc": 8,
+      "channel": "佛拉基亚",
+      "samples": "本地",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc08-vollachia-catastrophe.md",
+      "keywords": [
+        "佛拉基亚",
+        "本地"
+      ]
+    },
+    {
+      "arc": 8,
+      "channel": "雪原",
+      "samples": "古斯提科教区收留帝国流亡者",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc08-vollachia-catastrophe.md",
+      "keywords": [
+        "雪原",
+        "古斯提科教区收留帝国",
+        "流亡者"
+      ]
+    },
+    {
+      "arc": 8,
+      "channel": "普利斯提拉",
+      "samples": "水门城关接收难民",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc08-vollachia-catastrophe.md",
+      "keywords": [
+        "普利斯提拉",
+        "水门城关接收难民"
+      ]
+    },
+    {
+      "arc": 8,
+      "channel": "边境梦境",
+      "samples": "监视塔记录帝国大灾能量",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc08-vollachia-catastrophe.md",
+      "keywords": [
+        "边境梦境",
+        "监视塔记录帝国大灾能"
+      ]
+    },
+    {
+      "arc": 8,
+      "channel": "王都",
+      "samples": "王选会议讨论是否援助",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc08-vollachia-catastrophe.md",
+      "keywords": [
+        "王都",
+        "王选会议讨论是否援助"
+      ]
+    },
+    {
+      "arc": 8,
+      "channel": "文书延迟",
+      "samples": "帝国求援信延迟 14 天",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc08-vollachia-catastrophe.md",
+      "keywords": [
+        "文书延迟",
+        "帝国求援信延迟"
+      ]
+    },
+    {
+      "arc": 9,
+      "channel": "卡拉拉基",
+      "samples": "雪原货车被冷源冻住，价格上扬",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc09-gusteko-snowfield.md",
+      "keywords": [
+        "卡拉拉基",
+        "雪原货车被冷源冻住",
+        "价格上扬"
+      ]
+    },
+    {
+      "arc": 9,
+      "channel": "佛拉基亚",
+      "samples": "帝国大灾余波传到雪原",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc09-gusteko-snowfield.md",
+      "keywords": [
+        "佛拉基亚",
+        "帝国大灾余波传到雪原"
+      ]
+    },
+    {
+      "arc": 9,
+      "channel": "雪原",
+      "samples": "本地",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc09-gusteko-snowfield.md",
+      "keywords": [
+        "雪原",
+        "本地"
+      ]
+    },
+    {
+      "arc": 9,
+      "channel": "普利斯提拉",
+      "samples": "水门接到来自雪原的\"冷源样本\"",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc09-gusteko-snowfield.md",
+      "keywords": [
+        "普利斯提拉",
+        "水门接到来自雪原的",
+        "冷源样本"
+      ]
+    },
+    {
+      "arc": 9,
+      "channel": "边境梦境",
+      "samples": "监视塔与雪原冷源对接",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc09-gusteko-snowfield.md",
+      "keywords": [
+        "边境梦境",
+        "监视塔与雪原冷源对接"
+      ]
+    },
+    {
+      "arc": 9,
+      "channel": "王都",
+      "samples": "王选会议讨论是否援助雪原",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc09-gusteko-snowfield.md",
+      "keywords": [
+        "王都",
+        "王选会议讨论是否援助",
+        "雪原"
+      ]
+    },
+    {
+      "arc": 9,
+      "channel": "文书延迟",
+      "samples": "雪原税单延迟 100+ 天",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc09-gusteko-snowfield.md",
+      "keywords": [
+        "文书延迟",
+        "雪原税单延迟"
+      ]
+    },
+    {
+      "arc": 10,
+      "channel": "卡拉拉基",
+      "samples": "安娜塔西亚商会大规模投资王都重建",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc10-royal-capital-return.md",
+      "keywords": [
+        "卡拉拉基",
+        "安娜塔西亚商会大规模",
+        "投资王都重建"
+      ]
+    },
+    {
+      "arc": 10,
+      "channel": "佛拉基亚",
+      "samples": "帝国密使送来\"祝贺新王\"的礼物",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc10-royal-capital-return.md",
+      "keywords": [
+        "佛拉基亚",
+        "帝国密使送来",
+        "祝贺新王",
+        "的礼物"
+      ]
+    },
+    {
+      "arc": 10,
+      "channel": "雪原",
+      "samples": "雪原朝圣者来王都见证",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc10-royal-capital-return.md",
+      "keywords": [
+        "雪原",
+        "雪原朝圣者来王都见证"
+      ]
+    },
+    {
+      "arc": 10,
+      "channel": "普利斯提拉",
+      "samples": "水门重建完成的报告",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc10-royal-capital-return.md",
+      "keywords": [
+        "普利斯提拉",
+        "水门重建完成的报告"
+      ]
+    },
+    {
+      "arc": 10,
+      "channel": "边境梦境",
+      "samples": "监视塔记录嫉妒魔女接近",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc10-royal-capital-return.md",
+      "keywords": [
+        "边境梦境",
+        "监视塔记录嫉妒魔女接"
+      ]
+    },
+    {
+      "arc": 10,
+      "channel": "王都",
+      "samples": "本地",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc10-royal-capital-return.md",
+      "keywords": [
+        "王都",
+        "本地"
+      ]
+    },
+    {
+      "arc": 10,
+      "channel": "文书延迟",
+      "samples": "王选官方文书最后确认延迟 7 天",
+      "source": "data/default-user/re0-engine/storylines/arcs/arc10-royal-capital-return.md",
+      "keywords": [
+        "文书延迟",
+        "王选官方文书最后确认",
+        "延迟"
+      ]
+    }
+  ],
+  "worldMap": {
+    "regions": [],
+    "travelMatrix": [],
+    "unlockedByArc": {
+      "1": [
+        "lugunica_capital",
+        "royal_capital_slums",
+        "loot_house"
+      ],
+      "2": [
+        "roswaal_mansion",
+        "arlam_village"
+      ],
+      "3": [
+        "royal_castle",
+        "flugel_tree_road"
+      ],
+      "4": [
+        "sanctuary"
+      ],
+      "5": [
+        "priestella"
+      ],
+      "6": [
+        "watchtower",
+        "auguria_sand_dunes"
+      ],
+      "7": [
+        "vollachia"
+      ],
+      "8": [
+        "vollachia_capital"
+      ],
+      "9": [
+        "gusteko_snowfield"
+      ],
+      "10": [
+        "lugunica_capital_return"
+      ],
+      "11": [
+        "final_hub"
+      ]
+    },
+    "source": "data/default-user/re0-engine/storylines/WORLD_MAP.md"
+  },
+  "characterDossiers": {
+    "al": {
+      "id": "al",
+      "name": "阿尔",
+      "faction": "",
+      "canonCore": "异乡人 / 戴头盔 / 公开他的\"那边来\" / 3, 5, 7, 11",
+      "motivation": "",
+      "hiddenPressure": "",
+      "knowledgeBoundaries": "",
+      "routeHooks": [],
+      "riskTriggers": [],
+      "speechStyle": "",
+      "arcRelevance": [],
+      "routeAvailability": "conditional",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "阿尔",
+        "异乡人",
+        "戴头盔",
+        "公开他的",
+        "那边来"
+      ]
+    },
+    "anastasia": {
+      "id": "anastasia",
+      "name": "安娜塔西亚",
+      "faction": "",
+      "canonCore": "商人 / 算账 / 让铁之牙白损 / 3, 5",
+      "motivation": "",
+      "hiddenPressure": "",
+      "knowledgeBoundaries": "",
+      "routeHooks": [],
+      "riskTriggers": [],
+      "speechStyle": "",
+      "arcRelevance": [],
+      "routeAvailability": "conditional",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "安娜塔西亚",
+        "商人",
+        "算账",
+        "让铁之牙白损"
+      ]
+    },
+    "beatrice": {
+      "id": "beatrice",
+      "name": "碧翠丝",
+      "faction": "禁书库 / 与\"那个人\"契约",
+      "canonCore": "外冷内孤独 / 等待 / 高傲稚气",
+      "motivation": "等\"那个人\"出现",
+      "hiddenPressure": "害怕等的人永远不来",
+      "knowledgeBoundaries": "",
+      "routeHooks": [
+        "K-2-04",
+        "Arc 4",
+        "Arc 11 大加成"
+      ],
+      "riskTriggers": [
+        "请她\"帮我解决一切\""
+      ],
+      "speechStyle": "高傲稚气，咬字清楚",
+      "arcRelevance": [
+        "2",
+        "4",
+        "6",
+        "11"
+      ],
+      "routeAvailability": "conditional",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "K-2-04",
+        "碧翠丝",
+        "禁书库",
+        "那个人",
+        "契约",
+        "外冷内孤独",
+        "等待",
+        "高傲稚气"
+      ]
+    },
+    "bellringer": {
+      "id": "bellringer",
+      "name": "剥钟人",
+      "faction": "魔女教异端 / 原创敌人",
+      "canonCore": "侍奉\"迟到的救赎\" / 让濒死者听见另一条时间线的自己",
+      "motivation": "把\"被救\" intent 倒置成\"迟到救\" 的极致信仰",
+      "hiddenPressure": "他是玩家某个未来循环的镜像",
+      "knowledgeBoundaries": "知道死亡回归 / 不知道嫉妒魔女对他的真实意图",
+      "routeHooks": [
+        "通过他可解锁 E-Bell"
+      ],
+      "riskTriggers": [
+        "不在死亡 12 次前主动揭穿他"
+      ],
+      "speechStyle": "沙哑低语，忽远忽近，病态温柔",
+      "arcRelevance": [
+        "1",
+        "4",
+        "5",
+        "8",
+        "11"
+      ],
+      "routeAvailability": "always (Bell 路线)",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "E-Bell",
+        "剥钟人",
+        "魔女教异端",
+        "原创敌人",
+        "侍奉",
+        "迟到的救赎",
+        "让濒死者听见另一条时",
+        "间线的自己"
+      ]
+    },
+    "capella": {
+      "id": "capella",
+      "name": "卡佩拉",
+      "faction": "",
+      "canonCore": "色欲 / 改造 / 莉莉安娜歌钓 / 5",
+      "motivation": "",
+      "hiddenPressure": "",
+      "knowledgeBoundaries": "",
+      "routeHooks": [],
+      "riskTriggers": [],
+      "speechStyle": "",
+      "arcRelevance": [],
+      "routeAvailability": "conditional",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "卡佩拉",
+        "色欲",
+        "改造",
+        "莉莉安娜歌钓"
+      ]
+    },
+    "carmilla": {
+      "id": "carmilla",
+      "name": "卡蜜拉",
+      "faction": "",
+      "canonCore": "四大魔女 / 茶会陷阱 / 4, 6",
+      "motivation": "",
+      "hiddenPressure": "",
+      "knowledgeBoundaries": "",
+      "routeHooks": [],
+      "riskTriggers": [],
+      "speechStyle": "",
+      "arcRelevance": [],
+      "routeAvailability": "conditional",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "卡蜜拉",
+        "四大魔女",
+        "茶会陷阱"
+      ]
+    },
+    "cecilus": {
+      "id": "cecilus",
+      "name": "塞西尔斯",
+      "faction": "",
+      "canonCore": "帝国 / 卡拉拉基 / 7, 8",
+      "motivation": "",
+      "hiddenPressure": "",
+      "knowledgeBoundaries": "",
+      "routeHooks": [],
+      "riskTriggers": [],
+      "speechStyle": "",
+      "arcRelevance": [],
+      "routeAvailability": "conditional",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "塞西尔斯",
+        "帝国",
+        "卡拉拉基"
+      ]
+    },
+    "chisha": {
+      "id": "chisha",
+      "name": "奇夏",
+      "faction": "",
+      "canonCore": "帝国 / 卡拉拉基 / 7, 8",
+      "motivation": "",
+      "hiddenPressure": "",
+      "knowledgeBoundaries": "",
+      "routeHooks": [],
+      "riskTriggers": [],
+      "speechStyle": "",
+      "arcRelevance": [],
+      "routeAvailability": "conditional",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "奇夏",
+        "帝国",
+        "卡拉拉基"
+      ]
+    },
+    "crusch": {
+      "id": "crusch",
+      "name": "库珥修",
+      "faction": "",
+      "canonCore": "卡尔斯腾家 / 王选 / 公正 / 王选胜 / 失去记忆 / 3, 6, 10",
+      "motivation": "",
+      "hiddenPressure": "",
+      "knowledgeBoundaries": "",
+      "routeHooks": [],
+      "riskTriggers": [],
+      "speechStyle": "",
+      "arcRelevance": [],
+      "routeAvailability": "conditional",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "库珥修",
+        "卡尔斯腾家",
+        "王选",
+        "公正",
+        "王选胜",
+        "失去记忆"
+      ]
+    },
+    "daphne": {
+      "id": "daphne",
+      "name": "达芙妮",
+      "faction": "",
+      "canonCore": "四大魔女 / 茶会陷阱 / 4, 6",
+      "motivation": "",
+      "hiddenPressure": "",
+      "knowledgeBoundaries": "",
+      "routeHooks": [],
+      "riskTriggers": [],
+      "speechStyle": "",
+      "arcRelevance": [],
+      "routeAvailability": "conditional",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "达芙妮",
+        "四大魔女",
+        "茶会陷阱"
+      ]
+    },
+    "echidna": {
+      "id": "echidna",
+      "name": "艾姬多娜",
+      "faction": "强欲魔女",
+      "canonCore": "知性 / 好奇心残忍",
+      "motivation": "收集所有知识 / 包括玩家的死亡",
+      "hiddenPressure": "",
+      "knowledgeBoundaries": "",
+      "routeHooks": [
+        "K-4-02 拒绝茶",
+        "注视 -1"
+      ],
+      "riskTriggers": [
+        "喝下茶"
+      ],
+      "speechStyle": "清冷优雅，温柔像实验记录",
+      "arcRelevance": [
+        "4"
+      ],
+      "routeAvailability": "conditional",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "K-4-02",
+        "艾姬多娜",
+        "强欲魔女",
+        "知性",
+        "好奇心残忍",
+        "收集所有知识",
+        "包括玩家的死亡",
+        "拒绝茶"
+      ]
+    },
+    "elsa": {
+      "id": "elsa",
+      "name": "艾尔莎",
+      "faction": "委托 / 自身杀意",
+      "canonCore": "猎肠者 / 优雅残酷 / 享受濒死",
+      "motivation": "杀 + 享受",
+      "hiddenPressure": "自己不知道自己在等被谁拦住",
+      "knowledgeBoundaries": "",
+      "routeHooks": [
+        "K-1-02",
+        "K-1-03",
+        "暴露委托人"
+      ],
+      "riskTriggers": [
+        "打断她"
+      ],
+      "speechStyle": "柔软低缓，停顿如刀尖",
+      "arcRelevance": [
+        "1",
+        "2",
+        "5"
+      ],
+      "routeAvailability": "always",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "K-1-02",
+        "K-1-03",
+        "艾尔莎",
+        "委托",
+        "自身杀意",
+        "猎肠者",
+        "优雅残酷",
+        "享受濒死"
+      ]
+    },
+    "emilia": {
+      "id": "emilia",
+      "name": "爱蜜莉雅",
+      "faction": "王选 / 半精灵",
+      "canonCore": "温柔 / 自责 / 半精灵歧视",
+      "motivation": "证明半精灵也可以做王",
+      "hiddenPressure": "觉得自己是\"罪的源头\"（莎缇拉残响）",
+      "knowledgeBoundaries": "",
+      "routeHooks": [
+        "Arc 2 K-2-03",
+        "Arc 4 SC-Light",
+        "Arc 10 D-10-02",
+        "Arc 11 E-True"
+      ],
+      "riskTriggers": [
+        "在公开场合质问她半精灵身份"
+      ],
+      "speechStyle": "清澈温柔，被误解时停顿",
+      "arcRelevance": [
+        "1",
+        "2",
+        "4",
+        "10",
+        "11"
+      ],
+      "routeAvailability": "always",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "K-2-03",
+        "D-10-02",
+        "E-True",
+        "爱蜜莉雅",
+        "王选",
+        "半精灵",
+        "温柔",
+        "自责"
+      ]
+    },
+    "felt": {
+      "id": "felt",
+      "name": "菲鲁特",
+      "faction": "自身 / 王选候补（晚期）",
+      "canonCore": "机敏 / 反骨 / 不愿被束缚",
+      "motivation": "自由",
+      "hiddenPressure": "隐藏的王族血脉",
+      "knowledgeBoundaries": "",
+      "routeHooks": [
+        "K-1-01",
+        "Arc 10 D-10-02 支持菲鲁特"
+      ],
+      "riskTriggers": [
+        "关她起来",
+        "让她欠人情债太多"
+      ],
+      "speechStyle": "街巷少女，警觉笑里",
+      "arcRelevance": [
+        "1",
+        "10",
+        "11"
+      ],
+      "routeAvailability": "always",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "K-1-01",
+        "D-10-02",
+        "菲鲁特",
+        "自身",
+        "王选候补",
+        "晚期",
+        "机敏",
+        "反骨"
+      ]
+    },
+    "ferris": {
+      "id": "ferris",
+      "name": "菲利克斯",
+      "faction": "",
+      "canonCore": "库珥修家臣 / 守库珥修 / 让库珥修死 / 3, 8, 10",
+      "motivation": "",
+      "hiddenPressure": "",
+      "knowledgeBoundaries": "",
+      "routeHooks": [],
+      "riskTriggers": [],
+      "speechStyle": "",
+      "arcRelevance": [],
+      "routeAvailability": "conditional",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "菲利克斯",
+        "库珥修家臣",
+        "守库珥修",
+        "让库珥修死"
+      ]
+    },
+    "flop": {
+      "id": "flop",
+      "name": "弗洛普",
+      "faction": "",
+      "canonCore": "帝国 / 卡拉拉基 / 7, 8",
+      "motivation": "",
+      "hiddenPressure": "",
+      "knowledgeBoundaries": "",
+      "routeHooks": [],
+      "riskTriggers": [],
+      "speechStyle": "",
+      "arcRelevance": [],
+      "routeAvailability": "conditional",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "弗洛普",
+        "帝国",
+        "卡拉拉基"
+      ]
+    },
+    "fortuna": {
+      "id": "fortuna",
+      "name": "福尔图娜",
+      "faction": "",
+      "canonCore": "莉雅养母 / 旧梦 / 通过梦显影 / 4, 9",
+      "motivation": "",
+      "hiddenPressure": "",
+      "knowledgeBoundaries": "",
+      "routeHooks": [],
+      "riskTriggers": [],
+      "speechStyle": "",
+      "arcRelevance": [],
+      "routeAvailability": "conditional",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "福尔图娜",
+        "莉雅养母",
+        "旧梦",
+        "通过梦显影"
+      ]
+    },
+    "frederica": {
+      "id": "frederica",
+      "name": "弗雷德莉卡",
+      "faction": "",
+      "canonCore": "罗宅女仆 / 维持宅邸秩序 / 让宅邸沦陷 / 4",
+      "motivation": "",
+      "hiddenPressure": "",
+      "knowledgeBoundaries": "",
+      "routeHooks": [],
+      "riskTriggers": [],
+      "speechStyle": "",
+      "arcRelevance": [],
+      "routeAvailability": "conditional",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "弗雷德莉卡",
+        "罗宅女仆",
+        "维持宅邸秩序",
+        "让宅邸沦陷"
+      ]
+    },
+    "garfiel": {
+      "id": "garfiel",
+      "name": "加菲尔",
+      "faction": "",
+      "canonCore": "圣域守护 / 守圣域 / 守姐姐 / 圣域被破坏 / 4",
+      "motivation": "",
+      "hiddenPressure": "",
+      "knowledgeBoundaries": "",
+      "routeHooks": [],
+      "riskTriggers": [],
+      "speechStyle": "",
+      "arcRelevance": [],
+      "routeAvailability": "conditional",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "加菲尔",
+        "圣域守护",
+        "守圣域",
+        "守姐姐",
+        "圣域被破坏"
+      ]
+    },
+    "geuse": {
+      "id": "geuse",
+      "name": "旧裘斯",
+      "faction": "",
+      "canonCore": "怠惰前身 / 被剥钟人继承 / 3, 6",
+      "motivation": "",
+      "hiddenPressure": "",
+      "knowledgeBoundaries": "",
+      "routeHooks": [],
+      "riskTriggers": [],
+      "speechStyle": "",
+      "arcRelevance": [],
+      "routeAvailability": "conditional",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "旧裘斯",
+        "怠惰前身",
+        "被剥钟人继承"
+      ]
+    },
+    "halibel": {
+      "id": "halibel",
+      "name": "哈利贝尔",
+      "faction": "",
+      "canonCore": "帝国 / 卡拉拉基 / 7, 8",
+      "motivation": "",
+      "hiddenPressure": "",
+      "knowledgeBoundaries": "",
+      "routeHooks": [],
+      "riskTriggers": [],
+      "speechStyle": "",
+      "arcRelevance": [],
+      "routeAvailability": "conditional",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "哈利贝尔",
+        "帝国",
+        "卡拉拉基"
+      ]
+    },
+    "heinkel": {
+      "id": "heinkel",
+      "name": "海因凯尔",
+      "faction": "",
+      "canonCore": "阿斯特雷亚家裂痕 / 让他和儿子冲突 / 5, 10",
+      "motivation": "",
+      "hiddenPressure": "",
+      "knowledgeBoundaries": "",
+      "routeHooks": [],
+      "riskTriggers": [],
+      "speechStyle": "",
+      "arcRelevance": [],
+      "routeAvailability": "conditional",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "海因凯尔",
+        "阿斯特雷亚家裂痕",
+        "让他和儿子冲突"
+      ]
+    },
+    "hetaro": {
+      "id": "hetaro",
+      "name": "黑塔罗",
+      "faction": "",
+      "canonCore": "铁之牙副团 / 指挥 / 退路被切 / 3, 5",
+      "motivation": "",
+      "hiddenPressure": "",
+      "knowledgeBoundaries": "",
+      "routeHooks": [],
+      "riskTriggers": [],
+      "speechStyle": "",
+      "arcRelevance": [],
+      "routeAvailability": "conditional",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "黑塔罗",
+        "铁之牙副团",
+        "指挥",
+        "退路被切"
+      ]
+    },
+    "joshua": {
+      "id": "joshua",
+      "name": "约书亚",
+      "faction": "",
+      "canonCore": "尤里乌斯之弟 / 兄长被怀疑 / 3",
+      "motivation": "",
+      "hiddenPressure": "",
+      "knowledgeBoundaries": "",
+      "routeHooks": [],
+      "riskTriggers": [],
+      "speechStyle": "",
+      "arcRelevance": [],
+      "routeAvailability": "conditional",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "约书亚",
+        "尤里乌斯之弟",
+        "兄长被怀疑"
+      ]
+    },
+    "julius": {
+      "id": "julius",
+      "name": "尤里乌斯",
+      "faction": "",
+      "canonCore": "骑士礼 / 自省 / 让骑士团蒙羞 / 3, 5, 6",
+      "motivation": "",
+      "hiddenPressure": "",
+      "knowledgeBoundaries": "",
+      "routeHooks": [],
+      "riskTriggers": [],
+      "speechStyle": "",
+      "arcRelevance": [],
+      "routeAvailability": "conditional",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "尤里乌斯",
+        "骑士礼",
+        "自省",
+        "让骑士团蒙羞"
+      ]
+    },
+    "kiritaka": {
+      "id": "kiritaka",
+      "name": "奇利塔卡",
+      "faction": "",
+      "canonCore": "商会 + 偶像 / 商会受损 / 5",
+      "motivation": "",
+      "hiddenPressure": "",
+      "knowledgeBoundaries": "",
+      "routeHooks": [],
+      "riskTriggers": [],
+      "speechStyle": "",
+      "arcRelevance": [],
+      "routeAvailability": "conditional",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "奇利塔卡",
+        "商会",
+        "偶像",
+        "商会受损"
+      ]
+    },
+    "ley": {
+      "id": "ley",
+      "name": "莱伊",
+      "faction": "",
+      "canonCore": "暴食 / 三人组分离 / 5, 6, 7, 8",
+      "motivation": "",
+      "hiddenPressure": "",
+      "knowledgeBoundaries": "",
+      "routeHooks": [],
+      "riskTriggers": [],
+      "speechStyle": "",
+      "arcRelevance": [],
+      "routeAvailability": "conditional",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "莱伊",
+        "暴食",
+        "三人组分离"
+      ]
+    },
+    "liliana": {
+      "id": "liliana",
+      "name": "莉莉安娜",
+      "faction": "",
+      "canonCore": "歌 / 引人心 / 歌被压制 / 5",
+      "motivation": "",
+      "hiddenPressure": "",
+      "knowledgeBoundaries": "",
+      "routeHooks": [],
+      "riskTriggers": [],
+      "speechStyle": "",
+      "arcRelevance": [],
+      "routeAvailability": "conditional",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "莉莉安娜",
+        "引人心",
+        "歌被压制"
+      ]
+    },
+    "lishelle": {
+      "id": "lishelle",
+      "name": "莉榭尔·阿尔戈",
+      "faction": "贫民区救济院 / 原创",
+      "canonCore": "灰发修女 / 知情者 / 自损式善意 / 死亡记忆研究者",
+      "motivation": "救人，且不让自己被记得是救人者",
+      "hiddenPressure": "每读一次玩家失败时间线，损失自己一片记忆",
+      "knowledgeBoundaries": "知道玩家死亡回归 / 不知道剥钟人是她未来的镜像",
+      "routeHooks": [
+        "Arc 1 K-1-08",
+        "Arc 3 K-3-04",
+        "Arc 11 E-True 钥匙"
+      ],
+      "riskTriggers": [
+        "主动让她读 ≥ 3 次",
+        "公开她\"看穿\"主角",
+        "让她进怠惰视野"
+      ],
+      "speechStyle": "温柔低声，停顿干净，尾音气声",
+      "arcRelevance": [
+        "1",
+        "3",
+        "6",
+        "11"
+      ],
+      "routeAvailability": "conditional (Arc 1 不让她受伤即可一路到 Arc 11)",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "K-1-08",
+        "K-3-04",
+        "E-True",
+        "莉榭尔",
+        "阿尔戈",
+        "贫民区救济院",
+        "原创",
+        "灰发修女"
+      ]
+    },
+    "medium": {
+      "id": "medium",
+      "name": "米蒂姆",
+      "faction": "",
+      "canonCore": "帝国 / 卡拉拉基 / 7, 8",
+      "motivation": "",
+      "hiddenPressure": "",
+      "knowledgeBoundaries": "",
+      "routeHooks": [],
+      "riskTriggers": [],
+      "speechStyle": "",
+      "arcRelevance": [],
+      "routeAvailability": "conditional",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "米蒂姆",
+        "帝国",
+        "卡拉拉基"
+      ]
+    },
+    "meili": {
+      "id": "meili",
+      "name": "梅丽",
+      "faction": "",
+      "canonCore": "魔兽使 / 2, 7",
+      "motivation": "",
+      "hiddenPressure": "",
+      "knowledgeBoundaries": "",
+      "routeHooks": [],
+      "riskTriggers": [],
+      "speechStyle": "",
+      "arcRelevance": [],
+      "routeAvailability": "conditional",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "梅丽",
+        "魔兽使"
+      ]
+    },
+    "mia": {
+      "id": "mia",
+      "name": "米娅",
+      "faction": "贫民区 / 原创",
+      "canonCore": "求生 / 信任早 / 怕疼",
+      "motivation": "活下来 + 不让救济院的孩子死",
+      "hiddenPressure": "她的\"信任早\"是因为她已经死过一次（玩家不知道）",
+      "knowledgeBoundaries": "知道废钟图案危险 / 不知道剥钟人会标记她",
+      "routeHooks": [
+        "K-1-06 钟锈片合法化",
+        "Arc 5 K-5-07"
+      ],
+      "riskTriggers": [
+        "让她进救济院火",
+        "让她目睹孩子死"
+      ],
+      "speechStyle": "清亮少女声，紧张紧绷",
+      "arcRelevance": [
+        "1",
+        "5",
+        "10",
+        "11"
+      ],
+      "routeAvailability": "conditional",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "K-1-06",
+        "K-5-07",
+        "米娅",
+        "贫民区",
+        "原创",
+        "求生",
+        "信任早",
+        "怕疼"
+      ]
+    },
+    "mimi": {
+      "id": "mimi",
+      "name": "咪咪",
+      "faction": "",
+      "canonCore": "铁之牙副团 / 战斗 / 战斗中被拉走 / 3, 5",
+      "motivation": "",
+      "hiddenPressure": "",
+      "knowledgeBoundaries": "",
+      "routeHooks": [],
+      "riskTriggers": [],
+      "speechStyle": "",
+      "arcRelevance": [],
+      "routeAvailability": "conditional",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "咪咪",
+        "铁之牙副团",
+        "战斗",
+        "战斗中被拉走"
+      ]
+    },
+    "minerva": {
+      "id": "minerva",
+      "name": "密涅瓦",
+      "faction": "",
+      "canonCore": "四大魔女 / 茶会陷阱 / 4, 6",
+      "motivation": "",
+      "hiddenPressure": "",
+      "knowledgeBoundaries": "",
+      "routeHooks": [],
+      "riskTriggers": [],
+      "speechStyle": "",
+      "arcRelevance": [],
+      "routeAvailability": "conditional",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "密涅瓦",
+        "四大魔女",
+        "茶会陷阱"
+      ]
+    },
+    "narrator": {
+      "id": "narrator",
+      "name": "命运旁白",
+      "faction": "世界本体",
+      "canonCore": "不带立场的全知视角 / 不剧透 hidden 终局",
+      "motivation": "让玩家走完命运链",
+      "hiddenPressure": "",
+      "knowledgeBoundaries": "知道所有 worldPulses，但不主动揭露 hidden",
+      "routeHooks": [],
+      "riskTriggers": [],
+      "speechStyle": "低沉、克制、电影感",
+      "arcRelevance": [
+        "全 Arc"
+      ],
+      "routeAvailability": "always",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "命运旁白",
+        "世界本体",
+        "不带立场的全知视角",
+        "不剧透",
+        "终局",
+        "让玩家走完命运链"
+      ]
+    },
+    "otto": {
+      "id": "otto",
+      "name": "奥托",
+      "faction": "旅商 / 后期爱蜜莉雅阵营内政",
+      "canonCore": "容易倒霉 / 关键时刻可靠",
+      "motivation": "生存 + 帮朋友",
+      "hiddenPressure": "觉得自己不配站在英雄旁边",
+      "knowledgeBoundaries": "",
+      "routeHooks": [
+        "Arc 2-3 商队情报",
+        "Arc 7 卡拉拉基商路传言加成"
+      ],
+      "riskTriggers": [
+        "让他\"再倒霉一次\""
+      ],
+      "speechStyle": "焦虑吐槽，认真时坚定",
+      "arcRelevance": [
+        "1-10"
+      ],
+      "routeAvailability": "always",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "奥托",
+        "旅商",
+        "后期爱蜜莉雅阵营内政",
+        "容易倒霉",
+        "关键时刻可靠",
+        "生存",
+        "帮朋友",
+        "商队情报"
+      ]
+    },
+    "owen": {
+      "id": "owen",
+      "name": "欧文·卡斯兰",
+      "faction": "旧近卫团残党 / 调查者 / 原创",
+      "canonCore": "只相信证据 / 不相信英雄 / 失去家族",
+      "motivation": "还原被抹去的魔女教真相",
+      "hiddenPressure": "害怕\"提前知道\"会让自己变成下一个被抹去的人",
+      "knowledgeBoundaries": "知道魔女教抹去过几个家族 / 不知道莎缇拉真相",
+      "routeHooks": [
+        "K-1-07",
+        "K-6-06",
+        "K-10-01",
+        "E-Truth"
+      ],
+      "riskTriggers": [
+        "让档案外泄给贵族",
+        "在他面前撒谎被识破 ≥ 2 次"
+      ],
+      "speechStyle": "干冷短句，咬字硬，情绪藏在克制怒意下",
+      "arcRelevance": [
+        "1",
+        "6",
+        "10",
+        "11"
+      ],
+      "routeAvailability": "conditional",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "K-1-07",
+        "K-6-06",
+        "K-10-01",
+        "E-Truth",
+        "欧文",
+        "卡斯兰",
+        "旧近卫团残党",
+        "调查者"
+      ]
+    },
+    "pandora": {
+      "id": "pandora",
+      "name": "潘多拉",
+      "faction": "",
+      "canonCore": "虚饰 / 改写现实 / 让她改写主角记忆 / 6, 11",
+      "motivation": "",
+      "hiddenPressure": "",
+      "knowledgeBoundaries": "",
+      "routeHooks": [],
+      "riskTriggers": [],
+      "speechStyle": "",
+      "arcRelevance": [],
+      "routeAvailability": "conditional",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "潘多拉",
+        "虚饰",
+        "改写现实",
+        "让她改写主角记忆"
+      ]
+    },
+    "patrasche": {
+      "id": "patrasche",
+      "name": "帕特拉修",
+      "faction": "",
+      "canonCore": "地龙 / 玩家坐骑 / 守护骑士 / 让玩家受伤 / 3",
+      "motivation": "",
+      "hiddenPressure": "",
+      "knowledgeBoundaries": "",
+      "routeHooks": [],
+      "riskTriggers": [],
+      "speechStyle": "",
+      "arcRelevance": [],
+      "routeAvailability": "conditional",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "帕特拉修",
+        "地龙",
+        "玩家坐骑",
+        "守护骑士",
+        "让玩家受伤"
+      ]
+    },
+    "petelgeuse": {
+      "id": "petelgeuse",
+      "name": "培提其乌斯",
+      "faction": "怠惰司教",
+      "canonCore": "狂信 / 看不见的手",
+      "motivation": "服侍嫉妒魔女",
+      "hiddenPressure": "",
+      "knowledgeBoundaries": "",
+      "routeHooks": [
+        "K-3-04 用魔女气味反向钓"
+      ],
+      "riskTriggers": [],
+      "speechStyle": "神经质，忽快忽慢",
+      "arcRelevance": [
+        "3"
+      ],
+      "routeAvailability": "always",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "K-3-04",
+        "培提其乌斯",
+        "怠惰司教",
+        "狂信",
+        "看不见的手",
+        "服侍嫉妒魔女",
+        "用魔女气味反向钓"
+      ]
+    },
+    "petra": {
+      "id": "petra",
+      "name": "佩特拉",
+      "faction": "",
+      "canonCore": "阿拉姆村 / 罗宅 / 帮主角 / 让她被当小孩 / 2-4",
+      "motivation": "",
+      "hiddenPressure": "",
+      "knowledgeBoundaries": "",
+      "routeHooks": [],
+      "riskTriggers": [],
+      "speechStyle": "",
+      "arcRelevance": [],
+      "routeAvailability": "conditional",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "佩特拉",
+        "阿拉姆村",
+        "罗宅",
+        "帮主角",
+        "让她被当小孩"
+      ]
+    },
+    "priscilla": {
+      "id": "priscilla",
+      "name": "普莉希拉",
+      "faction": "",
+      "canonCore": "自我中心 / 王选 / 在她面前装腔 / 3, 5, 10, 11",
+      "motivation": "",
+      "hiddenPressure": "",
+      "knowledgeBoundaries": "",
+      "routeHooks": [],
+      "riskTriggers": [],
+      "speechStyle": "",
+      "arcRelevance": [],
+      "routeAvailability": "conditional",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "普莉希拉",
+        "自我中心",
+        "王选",
+        "在她面前装腔"
+      ]
+    },
+    "protagonist": {
+      "id": "protagonist",
+      "name": "无名异乡人",
+      "faction": "爱蜜莉雅阵营 / 玩家",
+      "canonCore": "善良 / 嘴硬 / 牺牲倾向 / 永远站起来",
+      "motivation": "保护爱蜜莉雅 / 自我成长",
+      "hiddenPressure": "死亡回归的孤独",
+      "knowledgeBoundaries": "自己死亡回归秘密 / 不知道还有\"另一个回归者\"（玩家）",
+      "routeHooks": [
+        "Arc 1 D-1-04",
+        "Arc 11 E-Mirror"
+      ],
+      "riskTriggers": [
+        "让他知道\"另一个回归者\"过早",
+        "抢他的成长戏"
+      ],
+      "speechStyle": "语速快，情绪外露",
+      "arcRelevance": [
+        "全 Arc"
+      ],
+      "routeAvailability": "always",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "D-1-04",
+        "E-Mirror",
+        "无名异乡人",
+        "爱蜜莉雅阵营",
+        "善良",
+        "嘴硬",
+        "牺牲倾向",
+        "永远站起来"
+      ]
+    },
+    "puck": {
+      "id": "puck",
+      "name": "帕克",
+      "faction": "",
+      "canonCore": "莉雅契约者 / 守护莉雅 / 主角魔女气味强 / 2, 4",
+      "motivation": "",
+      "hiddenPressure": "",
+      "knowledgeBoundaries": "",
+      "routeHooks": [],
+      "riskTriggers": [],
+      "speechStyle": "",
+      "arcRelevance": [],
+      "routeAvailability": "conditional",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "帕克",
+        "莉雅契约者",
+        "守护莉雅",
+        "主角魔女气味强"
+      ]
+    },
+    "ram": {
+      "id": "ram",
+      "name": "拉姆",
+      "faction": "罗兹瓦尔宅邸",
+      "canonCore": "毒舌 / 骄傲 / 姐姐第一",
+      "motivation": "守护蕾姆 / 等罗兹瓦尔的承诺",
+      "hiddenPressure": "自己已经不是完整的鬼族（断角）",
+      "knowledgeBoundaries": "",
+      "routeHooks": [
+        "Arc 2 K-2-02 触发器"
+      ],
+      "riskTriggers": [],
+      "speechStyle": "冷淡讽刺",
+      "arcRelevance": [
+        "2",
+        "3",
+        "4"
+      ],
+      "routeAvailability": "conditional",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "K-2-02",
+        "拉姆",
+        "罗兹瓦尔宅邸",
+        "毒舌",
+        "骄傲",
+        "姐姐第一",
+        "守护蕾姆",
+        "等罗兹瓦尔的承诺"
+      ]
+    },
+    "regulus": {
+      "id": "regulus",
+      "name": "雷古勒斯",
+      "faction": "",
+      "canonCore": "自我权利至上 / 心脏数量被揭 / 5",
+      "motivation": "",
+      "hiddenPressure": "",
+      "knowledgeBoundaries": "",
+      "routeHooks": [],
+      "riskTriggers": [],
+      "speechStyle": "",
+      "arcRelevance": [],
+      "routeAvailability": "conditional",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "雷古勒斯",
+        "自我权利至上",
+        "心脏数量被揭"
+      ]
+    },
+    "reid": {
+      "id": "reid",
+      "name": "雷德",
+      "faction": "",
+      "canonCore": "旧时代 / 6, 11",
+      "motivation": "",
+      "hiddenPressure": "",
+      "knowledgeBoundaries": "",
+      "routeHooks": [],
+      "riskTriggers": [],
+      "speechStyle": "",
+      "arcRelevance": [],
+      "routeAvailability": "conditional",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "雷德",
+        "旧时代"
+      ]
+    },
+    "reinhard": {
+      "id": "reinhard",
+      "name": "莱茵哈鲁特",
+      "faction": "王国骑士团",
+      "canonCore": "剑圣 / 温和正直 / 准时迟到 / 自责",
+      "motivation": "守护无辜 / 用剑解决能解决的",
+      "hiddenPressure": "自己的\"剑圣加护\"反而让别人受伤",
+      "knowledgeBoundaries": "",
+      "routeHooks": [
+        "K-3-03",
+        "准时到",
+        "Arc 10 RC-Light-002",
+        "护卫主角"
+      ],
+      "riskTriggers": [
+        "让贵族院调令前置",
+        "在他面前质疑\"剑圣\"价值"
+      ],
+      "speechStyle": "明亮稳重，干净歉意",
+      "arcRelevance": [
+        "1",
+        "3",
+        "10",
+        "11"
+      ],
+      "routeAvailability": "always",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "K-3-03",
+        "RC-Light-002",
+        "莱茵哈鲁特",
+        "王国骑士团",
+        "剑圣",
+        "温和正直",
+        "准时迟到",
+        "自责"
+      ]
+    },
+    "rem": {
+      "id": "rem",
+      "name": "蕾姆",
+      "faction": "罗兹瓦尔宅邸",
+      "canonCore": "爱与执念并存 / 姐姐情结 / 自我嫌恶",
+      "motivation": "守护姐姐 + 守护\"对她说不寻常话\"的那个人",
+      "hiddenPressure": "觉得自己不如姐姐",
+      "knowledgeBoundaries": "",
+      "routeHooks": [
+        "Arc 2 K-2-02 + K-2-03",
+        "觉醒",
+        "Arc 3 K-3-05",
+        "不被遗忘"
+      ],
+      "riskTriggers": [
+        "闻到主角魔女气味（Arc 2 默认会闻到）"
+      ],
+      "speechStyle": "清冷礼貌，越危险越温柔",
+      "arcRelevance": [
+        "2",
+        "3",
+        "4",
+        "6",
+        "10",
+        "11"
+      ],
+      "routeAvailability": "conditional",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "K-2-02",
+        "K-2-03",
+        "K-3-05",
+        "蕾姆",
+        "罗兹瓦尔宅邸",
+        "爱与执念并存",
+        "姐姐情结",
+        "自我嫌恶"
+      ]
+    },
+    "ricardo": {
+      "id": "ricardo",
+      "name": "里卡多",
+      "faction": "",
+      "canonCore": "铁之牙团长 / 重义 / 战死 / 3, 5",
+      "motivation": "",
+      "hiddenPressure": "",
+      "knowledgeBoundaries": "",
+      "routeHooks": [],
+      "riskTriggers": [],
+      "speechStyle": "",
+      "arcRelevance": [],
+      "routeAvailability": "conditional",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "里卡多",
+        "铁之牙团长",
+        "重义",
+        "战死"
+      ]
+    },
+    "rom": {
+      "id": "rom",
+      "name": "罗姆爷",
+      "faction": "",
+      "canonCore": "守菲鲁特 / 盗品蔵 / 1, 5, 10",
+      "motivation": "",
+      "hiddenPressure": "",
+      "knowledgeBoundaries": "",
+      "routeHooks": [],
+      "riskTriggers": [],
+      "speechStyle": "",
+      "arcRelevance": [],
+      "routeAvailability": "conditional",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "罗姆爷",
+        "守菲鲁特",
+        "盗品蔵"
+      ]
+    },
+    "roswaal": {
+      "id": "roswaal",
+      "name": "罗兹瓦尔",
+      "faction": "边境伯 / 福音书",
+      "canonCore": "剧本 / 利用 / 优雅压迫 / 牺牲观",
+      "motivation": "完成福音书剧本（复活贝阿特丽斯曾爱过的人）",
+      "hiddenPressure": "害怕福音书页突然不再更新",
+      "knowledgeBoundaries": "",
+      "routeHooks": [
+        "K-2-01",
+        "K-4-02",
+        "K-4-03",
+        "SC-Light"
+      ],
+      "riskTriggers": [
+        "公开他剧本",
+        "让福音书页矛盾暴露"
+      ],
+      "speechStyle": "戏剧化拖音，优雅不适",
+      "arcRelevance": [
+        "2",
+        "4",
+        "11"
+      ],
+      "routeAvailability": "always",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "K-2-01",
+        "K-4-02",
+        "K-4-03",
+        "罗兹瓦尔",
+        "边境伯",
+        "福音书",
+        "剧本",
+        "利用"
+      ]
+    },
+    "roy": {
+      "id": "roy",
+      "name": "罗伊",
+      "faction": "",
+      "canonCore": "暴食 / 三人组分离 / 5, 6, 7, 8",
+      "motivation": "",
+      "hiddenPressure": "",
+      "knowledgeBoundaries": "",
+      "routeHooks": [],
+      "riskTriggers": [],
+      "speechStyle": "",
+      "arcRelevance": [],
+      "routeAvailability": "conditional",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "罗伊",
+        "暴食",
+        "三人组分离"
+      ]
+    },
+    "rui": {
+      "id": "rui",
+      "name": "路易",
+      "faction": "",
+      "canonCore": "暴食 / 三人组分离 / 5, 6, 7, 8",
+      "motivation": "",
+      "hiddenPressure": "",
+      "knowledgeBoundaries": "",
+      "routeHooks": [],
+      "riskTriggers": [],
+      "speechStyle": "",
+      "arcRelevance": [],
+      "routeAvailability": "conditional",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "路易",
+        "暴食",
+        "三人组分离"
+      ]
+    },
+    "ryuzu": {
+      "id": "ryuzu",
+      "name": "琉兹",
+      "faction": "",
+      "canonCore": "圣域居民 / 复制体 / 等待真相 / 主角问\"你是不是\" / 4",
+      "motivation": "",
+      "hiddenPressure": "",
+      "knowledgeBoundaries": "",
+      "routeHooks": [],
+      "riskTriggers": [],
+      "speechStyle": "",
+      "arcRelevance": [],
+      "routeAvailability": "conditional",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "琉兹",
+        "圣域居民",
+        "复制体",
+        "等待真相",
+        "主角问",
+        "你是不是"
+      ]
+    },
+    "satella": {
+      "id": "satella",
+      "name": "莎缇拉",
+      "faction": "",
+      "canonCore": "爱 / 被吞噬 / 主角回应\"我爱你\" / 5, 10, 11",
+      "motivation": "",
+      "hiddenPressure": "",
+      "knowledgeBoundaries": "",
+      "routeHooks": [],
+      "riskTriggers": [],
+      "speechStyle": "",
+      "arcRelevance": [],
+      "routeAvailability": "conditional",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "莎缇拉",
+        "被吞噬",
+        "主角回应",
+        "我爱你"
+      ]
+    },
+    "sekmet": {
+      "id": "sekmet",
+      "name": "赛赫麦特",
+      "faction": "",
+      "canonCore": "四大魔女 / 茶会陷阱 / 4, 6",
+      "motivation": "",
+      "hiddenPressure": "",
+      "knowledgeBoundaries": "",
+      "routeHooks": [],
+      "riskTriggers": [],
+      "speechStyle": "",
+      "arcRelevance": [],
+      "routeAvailability": "conditional",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "赛赫麦特",
+        "四大魔女",
+        "茶会陷阱"
+      ]
+    },
+    "shaula": {
+      "id": "shaula",
+      "name": "夏乌拉",
+      "faction": "",
+      "canonCore": "守监视塔 / 6",
+      "motivation": "",
+      "hiddenPressure": "",
+      "knowledgeBoundaries": "",
+      "routeHooks": [],
+      "riskTriggers": [],
+      "speechStyle": "",
+      "arcRelevance": [],
+      "routeAvailability": "conditional",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "夏乌拉",
+        "守监视塔"
+      ]
+    },
+    "sirius": {
+      "id": "sirius",
+      "name": "席利乌斯",
+      "faction": "",
+      "canonCore": "爱 / 共感扩散 / 共感被切 / 5",
+      "motivation": "",
+      "hiddenPressure": "",
+      "knowledgeBoundaries": "",
+      "routeHooks": [],
+      "riskTriggers": [],
+      "speechStyle": "",
+      "arcRelevance": [],
+      "routeAvailability": "conditional",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "席利乌斯",
+        "共感扩散",
+        "共感被切"
+      ]
+    },
+    "tivey": {
+      "id": "tivey",
+      "name": "缇碧",
+      "faction": "",
+      "canonCore": "铁之牙副团 / 算账 / 风险过高 / 3, 5",
+      "motivation": "",
+      "hiddenPressure": "",
+      "knowledgeBoundaries": "",
+      "routeHooks": [],
+      "riskTriggers": [],
+      "speechStyle": "",
+      "arcRelevance": [],
+      "routeAvailability": "conditional",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "缇碧",
+        "铁之牙副团",
+        "算账",
+        "风险过高"
+      ]
+    },
+    "typhon": {
+      "id": "typhon",
+      "name": "提丰",
+      "faction": "",
+      "canonCore": "四大魔女 / 茶会陷阱 / 4, 6",
+      "motivation": "",
+      "hiddenPressure": "",
+      "knowledgeBoundaries": "",
+      "routeHooks": [],
+      "riskTriggers": [],
+      "speechStyle": "",
+      "arcRelevance": [],
+      "routeAvailability": "conditional",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "提丰",
+        "四大魔女",
+        "茶会陷阱"
+      ]
+    },
+    "vincent": {
+      "id": "vincent",
+      "name": "文森特",
+      "faction": "",
+      "canonCore": "帝国 / 卡拉拉基 / 7, 8",
+      "motivation": "",
+      "hiddenPressure": "",
+      "knowledgeBoundaries": "",
+      "routeHooks": [],
+      "riskTriggers": [],
+      "speechStyle": "",
+      "arcRelevance": [],
+      "routeAvailability": "conditional",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "文森特",
+        "帝国",
+        "卡拉拉基"
+      ]
+    },
+    "volcanica": {
+      "id": "volcanica",
+      "name": "波尔肯尼卡",
+      "faction": "",
+      "canonCore": "旧时代 / 6, 11",
+      "motivation": "",
+      "hiddenPressure": "",
+      "knowledgeBoundaries": "",
+      "routeHooks": [],
+      "riskTriggers": [],
+      "speechStyle": "",
+      "arcRelevance": [],
+      "routeAvailability": "conditional",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "波尔肯尼卡",
+        "旧时代"
+      ]
+    },
+    "wilhelm": {
+      "id": "wilhelm",
+      "name": "威尔海姆",
+      "faction": "",
+      "canonCore": "库珥修家臣 / 复仇 / 礼仪 / 让亡妻白死 / 3, 8",
+      "motivation": "",
+      "hiddenPressure": "",
+      "knowledgeBoundaries": "",
+      "routeHooks": [],
+      "riskTriggers": [],
+      "speechStyle": "",
+      "arcRelevance": [],
+      "routeAvailability": "conditional",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "威尔海姆",
+        "库珥修家臣",
+        "复仇",
+        "礼仪",
+        "让亡妻白死"
+      ]
+    },
+    "yorna": {
+      "id": "yorna",
+      "name": "尤尔娜",
+      "faction": "",
+      "canonCore": "帝国 / 卡拉拉基 / 7, 8",
+      "motivation": "",
+      "hiddenPressure": "",
+      "knowledgeBoundaries": "",
+      "routeHooks": [],
+      "riskTriggers": [],
+      "speechStyle": "",
+      "arcRelevance": [],
+      "routeAvailability": "conditional",
+      "dossierSource": "data/default-user/re0-engine/storylines/CHARACTER_DOSSIERS.md",
+      "keywords": [
+        "尤尔娜",
+        "帝国",
+        "卡拉拉基"
+      ]
+    }
+  }
+}

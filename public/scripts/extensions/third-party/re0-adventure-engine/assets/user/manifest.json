@@ -1,0 +1,6 @@
+{
+  "generatedAt": "2026-05-17T15:07:02.098Z",
+  "note": "User-provided local override assets. Put files under assets/user/avatars or assets/user/scenes and rerun scripts/build-re0-user-assets.mjs.",
+  "avatars": {},
+  "scenes": {}
+}

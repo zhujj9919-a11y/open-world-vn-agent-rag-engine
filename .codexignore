@@ -1,0 +1,8 @@
+re0_novel_src/
+../re0_novel_src/
+re0_novel_src.zip
+../re0_novel_src.zip
+**/re0_novel_src/
+**/re0_novel_src.zip
+data/default-user/re0-engine/rag/novel-corpus/chapter-vault.jsonl.gz
+data/default-user/re0-engine/rag/novel-corpus/*.jsonl.gz
