@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-label="普利斯提拉水门">
+    <title>普利斯提拉水门</title>
+    <defs>
+        <radialGradient id="sceneGlow" cx="28%" cy="18%" r="78%">
+            <stop offset="0%" stop-color="#fed7aa" stop-opacity="0.72"/>
+            <stop offset="42%" stop-color="#7f1d1d" stop-opacity="0.76"/>
+            <stop offset="100%" stop-color="#1c1007" stop-opacity="1"/>
+        </radialGradient>
+        <linearGradient id="sceneDepth" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#1c1007"/>
+            <stop offset="55%" stop-color="#7f1d1d"/>
+            <stop offset="100%" stop-color="#b45309"/>
+        </linearGradient>
+        <filter id="softBlur"><feGaussianBlur stdDeviation="18"/></filter>
+    </defs>
+    <rect width="1920" height="1080" fill="url(#sceneDepth)"/>
+    <rect width="1920" height="1080" fill="url(#sceneGlow)" opacity="0.88"/>
+    <g opacity="0.9">
+        
+        <rect x="0" y="690" width="1920" height="390" fill="#064e64" opacity="0.5"/>
+        <path d="M0 730 C480 690, 1180 790, 1920 720" stroke="#e0f2fe" stroke-width="3" fill="none" opacity="0.16"/>
+        <path d="M0 754 C480 710, 1180 808, 1920 746" stroke="#e0f2fe" stroke-width="3" fill="none" opacity="0.16"/>
+        <path d="M0 778 C480 730, 1180 826, 1920 772" stroke="#e0f2fe" stroke-width="3" fill="none" opacity="0.16"/>
+        <path d="M0 802 C480 750, 1180 844, 1920 798" stroke="#e0f2fe" stroke-width="3" fill="none" opacity="0.16"/>
+        <path d="M0 826 C480 770, 1180 862, 1920 824" stroke="#e0f2fe" stroke-width="3" fill="none" opacity="0.16"/>
+        <path d="M0 850 C480 790, 1180 880, 1920 850" stroke="#e0f2fe" stroke-width="3" fill="none" opacity="0.16"/>
+        <path d="M0 874 C480 810, 1180 898, 1920 876" stroke="#e0f2fe" stroke-width="3" fill="none" opacity="0.16"/>
+        <path d="M0 898 C480 830, 1180 916, 1920 902" stroke="#e0f2fe" stroke-width="3" fill="none" opacity="0.16"/>
+        <path d="M0 922 C480 850, 1180 934, 1920 928" stroke="#e0f2fe" stroke-width="3" fill="none" opacity="0.16"/>
+        <path d="M0 946 C480 870, 1180 952, 1920 954" stroke="#e0f2fe" stroke-width="3" fill="none" opacity="0.16"/>
+        <path d="M0 970 C480 890, 1180 970, 1920 980" stroke="#e0f2fe" stroke-width="3" fill="none" opacity="0.16"/>
+        <path d="M0 994 C480 910, 1180 988, 1920 1006" stroke="#e0f2fe" stroke-width="3" fill="none" opacity="0.16"/>
+        <path d="M0 1018 C480 930, 1180 1006, 1920 1032" stroke="#e0f2fe" stroke-width="3" fill="none" opacity="0.16"/>
+        <path d="M0 1042 C480 950, 1180 1024, 1920 1058" stroke="#e0f2fe" stroke-width="3" fill="none" opacity="0.16"/>
+        <path d="M0 1066 C480 970, 1180 1042, 1920 1084" stroke="#e0f2fe" stroke-width="3" fill="none" opacity="0.16"/>
+        <rect x="150" y="310" width="90" height="465" fill="#082f49" opacity="0.56"/>
+        <rect x="390" y="255" width="90" height="465" fill="#082f49" opacity="0.56"/>
+        <rect x="630" y="310" width="90" height="465" fill="#082f49" opacity="0.56"/>
+        <rect x="870" y="255" width="90" height="465" fill="#082f49" opacity="0.56"/>
+        <rect x="1110" y="310" width="90" height="465" fill="#082f49" opacity="0.56"/>
+        <rect x="1350" y="255" width="90" height="465" fill="#082f49" opacity="0.56"/>
+        <rect x="1590" y="310" width="90" height="465" fill="#082f49" opacity="0.56"/>
+    </g>
+    <g opacity="0.8" filter="url(#softBlur)">
+        <ellipse cx="1516" cy="836" rx="24" ry="5" fill="#fff" opacity="0.025"/>
+        <ellipse cx="569" cy="501" rx="42" ry="12" fill="#fff" opacity="0.031"/>
+        <ellipse cx="1542" cy="375" rx="60" ry="19" fill="#fff" opacity="0.037"/>
+        <ellipse cx="595" cy="353" rx="78" ry="26" fill="#fff" opacity="0.043"/>
+        <ellipse cx="1568" cy="384" rx="96" ry="5" fill="#fff" opacity="0.049"/>
+        <ellipse cx="621" cy="441" rx="24" ry="12" fill="#fff" opacity="0.055"/>
+        <ellipse cx="1594" cy="1051" rx="42" ry="19" fill="#fff" opacity="0.025"/>
+        <ellipse cx="647" cy="857" rx="60" ry="26" fill="#fff" opacity="0.031"/>
+        <ellipse cx="1620" cy="802" rx="78" ry="5" fill="#fff" opacity="0.037"/>
+        <ellipse cx="673" cy="276" rx="96" ry="12" fill="#fff" opacity="0.043"/>
+        <ellipse cx="1646" cy="54" rx="24" ry="19" fill="#fff" opacity="0.049"/>
+        <ellipse cx="699" cy="1065" rx="42" ry="26" fill="#fff" opacity="0.055"/>
+        <ellipse cx="1672" cy="1072" rx="60" ry="5" fill="#fff" opacity="0.025"/>
+        <ellipse cx="725" cy="37" rx="78" ry="12" fill="#fff" opacity="0.031"/>
+        <ellipse cx="1698" cy="101" rx="96" ry="19" fill="#fff" opacity="0.037"/>
+        <ellipse cx="751" cy="714" rx="24" ry="26" fill="#fff" opacity="0.043"/>
+        <ellipse cx="1724" cy="4" rx="42" ry="5" fill="#fff" opacity="0.049"/>
+        <ellipse cx="777" cy="749" rx="60" ry="12" fill="#fff" opacity="0.055"/>
+        <ellipse cx="1750" cy="623" rx="78" ry="19" fill="#fff" opacity="0.025"/>
+        <ellipse cx="803" cy="601" rx="96" ry="26" fill="#fff" opacity="0.031"/>
+        <ellipse cx="1776" cy="632" rx="24" ry="5" fill="#fff" opacity="0.037"/>
+        <ellipse cx="829" cy="689" rx="42" ry="12" fill="#fff" opacity="0.043"/>
+        <ellipse cx="1802" cy="219" rx="60" ry="19" fill="#fff" opacity="0.049"/>
+        <ellipse cx="855" cy="25" rx="78" ry="26" fill="#fff" opacity="0.055"/>
+        <ellipse cx="1828" cy="1050" rx="96" ry="5" fill="#fff" opacity="0.025"/>
+        <ellipse cx="881" cy="524" rx="24" ry="12" fill="#fff" opacity="0.031"/>
+        <ellipse cx="1854" cy="302" rx="42" ry="19" fill="#fff" opacity="0.037"/>
+        <ellipse cx="907" cy="233" rx="60" ry="26" fill="#fff" opacity="0.043"/>
+        <ellipse cx="1880" cy="240" rx="78" ry="5" fill="#fff" opacity="0.049"/>
+        <ellipse cx="933" cy="285" rx="96" ry="12" fill="#fff" opacity="0.055"/>
+        <ellipse cx="1906" cy="349" rx="24" ry="19" fill="#fff" opacity="0.025"/>
+        <ellipse cx="959" cy="962" rx="42" ry="26" fill="#fff" opacity="0.031"/>
+        <ellipse cx="12" cy="252" rx="60" ry="5" fill="#fff" opacity="0.037"/>
+        <ellipse cx="985" cy="997" rx="78" ry="12" fill="#fff" opacity="0.043"/>
+        <ellipse cx="38" cy="871" rx="96" ry="19" fill="#fff" opacity="0.049"/>
+        <ellipse cx="1011" cy="849" rx="24" ry="26" fill="#fff" opacity="0.055"/>
+        <ellipse cx="64" cy="880" rx="42" ry="5" fill="#fff" opacity="0.025"/>
+        <ellipse cx="1037" cy="937" rx="60" ry="12" fill="#fff" opacity="0.031"/>
+        <ellipse cx="90" cy="467" rx="78" ry="19" fill="#fff" opacity="0.037"/>
+        <ellipse cx="1063" cy="273" rx="96" ry="26" fill="#fff" opacity="0.043"/>
+        <ellipse cx="116" cy="218" rx="24" ry="5" fill="#fff" opacity="0.049"/>
+        <ellipse cx="1089" cy="772" rx="42" ry="12" fill="#fff" opacity="0.055"/>
+        <ellipse cx="142" cy="550" rx="60" ry="19" fill="#fff" opacity="0.025"/>
+        <ellipse cx="1115" cy="481" rx="78" ry="26" fill="#fff" opacity="0.031"/>
+        <ellipse cx="168" cy="488" rx="96" ry="5" fill="#fff" opacity="0.037"/>
+        <ellipse cx="1141" cy="533" rx="24" ry="12" fill="#fff" opacity="0.043"/>
+        <ellipse cx="194" cy="597" rx="42" ry="19" fill="#fff" opacity="0.049"/>
+        <ellipse cx="1167" cy="130" rx="60" ry="26" fill="#fff" opacity="0.055"/>
+        <ellipse cx="220" cy="500" rx="78" ry="5" fill="#fff" opacity="0.025"/>
+        <ellipse cx="1193" cy="165" rx="96" ry="12" fill="#fff" opacity="0.031"/>
+        <ellipse cx="246" cy="39" rx="24" ry="19" fill="#fff" opacity="0.037"/>
+        <ellipse cx="1219" cy="17" rx="42" ry="26" fill="#fff" opacity="0.043"/>
+        <ellipse cx="272" cy="48" rx="60" ry="5" fill="#fff" opacity="0.049"/>
+        <ellipse cx="1245" cy="105" rx="78" ry="12" fill="#fff" opacity="0.055"/>
+        <ellipse cx="298" cy="715" rx="96" ry="19" fill="#fff" opacity="0.025"/>
+        <ellipse cx="1271" cy="521" rx="24" ry="26" fill="#fff" opacity="0.031"/>
+    </g>
+    <rect width="1920" height="1080" fill="#000" opacity="0.08"/>
+    <rect y="740" width="1920" height="340" fill="#000" opacity="0.32"/>
+</svg>

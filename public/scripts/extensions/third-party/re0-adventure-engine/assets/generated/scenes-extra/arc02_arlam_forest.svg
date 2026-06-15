@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-label="魔兽袭村前的森林">
+    <title>魔兽袭村前的森林</title>
+    <defs>
+        <radialGradient id="sceneGlow" cx="28%" cy="18%" r="78%">
+            <stop offset="0%" stop-color="#94a3b8" stop-opacity="0.72"/>
+            <stop offset="42%" stop-color="#23121c" stop-opacity="0.76"/>
+            <stop offset="100%" stop-color="#080b12" stop-opacity="1"/>
+        </radialGradient>
+        <linearGradient id="sceneDepth" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#080b12"/>
+            <stop offset="55%" stop-color="#23121c"/>
+            <stop offset="100%" stop-color="#581c87"/>
+        </linearGradient>
+        <filter id="softBlur"><feGaussianBlur stdDeviation="18"/></filter>
+    </defs>
+    <rect width="1920" height="1080" fill="url(#sceneDepth)"/>
+    <rect width="1920" height="1080" fill="url(#sceneGlow)" opacity="0.88"/>
+    <g opacity="0.9">
+        
+        <line x1="0" y1="120" x2="-100" y2="1080" stroke="#052e1b" stroke-width="8" opacity="0.42"/>
+        <line x1="113" y1="120" x2="13" y2="1080" stroke="#052e1b" stroke-width="8" opacity="0.42"/>
+        <line x1="226" y1="120" x2="126" y2="1080" stroke="#052e1b" stroke-width="8" opacity="0.42"/>
+        <line x1="339" y1="120" x2="239" y2="1080" stroke="#052e1b" stroke-width="8" opacity="0.42"/>
+        <line x1="452" y1="120" x2="352" y2="1080" stroke="#052e1b" stroke-width="8" opacity="0.42"/>
+        <line x1="565" y1="120" x2="465" y2="1080" stroke="#052e1b" stroke-width="8" opacity="0.42"/>
+        <line x1="678" y1="120" x2="578" y2="1080" stroke="#052e1b" stroke-width="8" opacity="0.42"/>
+        <line x1="791" y1="120" x2="691" y2="1080" stroke="#052e1b" stroke-width="8" opacity="0.42"/>
+        <line x1="904" y1="120" x2="804" y2="1080" stroke="#052e1b" stroke-width="8" opacity="0.42"/>
+        <line x1="1017" y1="120" x2="917" y2="1080" stroke="#052e1b" stroke-width="8" opacity="0.42"/>
+        <line x1="1130" y1="120" x2="1030" y2="1080" stroke="#052e1b" stroke-width="8" opacity="0.42"/>
+        <line x1="1243" y1="120" x2="1143" y2="1080" stroke="#052e1b" stroke-width="8" opacity="0.42"/>
+        <line x1="1356" y1="120" x2="1256" y2="1080" stroke="#052e1b" stroke-width="8" opacity="0.42"/>
+        <line x1="1469" y1="120" x2="1369" y2="1080" stroke="#052e1b" stroke-width="8" opacity="0.42"/>
+        <line x1="1582" y1="120" x2="1482" y2="1080" stroke="#052e1b" stroke-width="8" opacity="0.42"/>
+        <line x1="1695" y1="120" x2="1595" y2="1080" stroke="#052e1b" stroke-width="8" opacity="0.42"/>
+        <line x1="1808" y1="120" x2="1708" y2="1080" stroke="#052e1b" stroke-width="8" opacity="0.42"/>
+        <line x1="1" y1="120" x2="-99" y2="1080" stroke="#052e1b" stroke-width="8" opacity="0.42"/>
+        <line x1="114" y1="120" x2="14" y2="1080" stroke="#052e1b" stroke-width="8" opacity="0.42"/>
+        <line x1="227" y1="120" x2="127" y2="1080" stroke="#052e1b" stroke-width="8" opacity="0.42"/>
+        <line x1="340" y1="120" x2="240" y2="1080" stroke="#052e1b" stroke-width="8" opacity="0.42"/>
+        <line x1="453" y1="120" x2="353" y2="1080" stroke="#052e1b" stroke-width="8" opacity="0.42"/>
+        <line x1="566" y1="120" x2="466" y2="1080" stroke="#052e1b" stroke-width="8" opacity="0.42"/>
+        <line x1="679" y1="120" x2="579" y2="1080" stroke="#052e1b" stroke-width="8" opacity="0.42"/>
+        <line x1="792" y1="120" x2="692" y2="1080" stroke="#052e1b" stroke-width="8" opacity="0.42"/>
+        <line x1="905" y1="120" x2="805" y2="1080" stroke="#052e1b" stroke-width="8" opacity="0.42"/>
+        <line x1="1018" y1="120" x2="918" y2="1080" stroke="#052e1b" stroke-width="8" opacity="0.42"/>
+        <line x1="1131" y1="120" x2="1031" y2="1080" stroke="#052e1b" stroke-width="8" opacity="0.42"/>
+        <line x1="1244" y1="120" x2="1144" y2="1080" stroke="#052e1b" stroke-width="8" opacity="0.42"/>
+        <line x1="1357" y1="120" x2="1257" y2="1080" stroke="#052e1b" stroke-width="8" opacity="0.42"/>
+        <line x1="1470" y1="120" x2="1370" y2="1080" stroke="#052e1b" stroke-width="8" opacity="0.42"/>
+        <line x1="1583" y1="120" x2="1483" y2="1080" stroke="#052e1b" stroke-width="8" opacity="0.42"/>
+        <line x1="1696" y1="120" x2="1596" y2="1080" stroke="#052e1b" stroke-width="8" opacity="0.42"/>
+        <line x1="1809" y1="120" x2="1709" y2="1080" stroke="#052e1b" stroke-width="8" opacity="0.42"/>
+        <line x1="2" y1="120" x2="-98" y2="1080" stroke="#052e1b" stroke-width="8" opacity="0.42"/>
+        <line x1="115" y1="120" x2="15" y2="1080" stroke="#052e1b" stroke-width="8" opacity="0.42"/>
+        <rect x="735" y="438" width="450" height="460" rx="26" fill="#20261f" opacity="0.56"/>
+        <ellipse cx="960" cy="420" rx="300" ry="70" fill="#94a3b8" opacity="0.18"/>
+    </g>
+    <g opacity="0.8" filter="url(#softBlur)">
+        <ellipse cx="1547" cy="577" rx="24" ry="5" fill="#fff" opacity="0.025"/>
+        <ellipse cx="1301" cy="371" rx="42" ry="12" fill="#fff" opacity="0.031"/>
+        <ellipse cx="1055" cy="310" rx="60" ry="19" fill="#fff" opacity="0.037"/>
+        <ellipse cx="809" cy="321" rx="78" ry="26" fill="#fff" opacity="0.043"/>
+        <ellipse cx="563" cy="908" rx="96" ry="5" fill="#fff" opacity="0.049"/>
+        <ellipse cx="317" cy="703" rx="24" ry="12" fill="#fff" opacity="0.055"/>
+        <ellipse cx="71" cy="642" rx="42" ry="19" fill="#fff" opacity="0.025"/>
+        <ellipse cx="1745" cy="653" rx="60" ry="26" fill="#fff" opacity="0.031"/>
+        <ellipse cx="1499" cy="160" rx="78" ry="5" fill="#fff" opacity="0.037"/>
+        <ellipse cx="1253" cy="1035" rx="96" ry="12" fill="#fff" opacity="0.043"/>
+        <ellipse cx="1007" cy="434" rx="24" ry="19" fill="#fff" opacity="0.049"/>
+        <ellipse cx="761" cy="175" rx="42" ry="26" fill="#fff" opacity="0.055"/>
+        <ellipse cx="515" cy="627" rx="60" ry="5" fill="#fff" opacity="0.025"/>
+        <ellipse cx="269" cy="894" rx="78" ry="12" fill="#fff" opacity="0.031"/>
+        <ellipse cx="23" cy="529" rx="96" ry="19" fill="#fff" opacity="0.037"/>
+        <ellipse cx="1697" cy="388" rx="24" ry="26" fill="#fff" opacity="0.043"/>
+        <ellipse cx="1451" cy="825" rx="42" ry="5" fill="#fff" opacity="0.049"/>
+        <ellipse cx="1205" cy="619" rx="60" ry="12" fill="#fff" opacity="0.055"/>
+        <ellipse cx="959" cy="558" rx="78" ry="19" fill="#fff" opacity="0.025"/>
+        <ellipse cx="713" cy="569" rx="96" ry="26" fill="#fff" opacity="0.031"/>
+        <ellipse cx="467" cy="76" rx="24" ry="5" fill="#fff" opacity="0.037"/>
+        <ellipse cx="221" cy="951" rx="42" ry="12" fill="#fff" opacity="0.043"/>
+        <ellipse cx="1895" cy="890" rx="60" ry="19" fill="#fff" opacity="0.049"/>
+        <ellipse cx="1649" cy="901" rx="78" ry="26" fill="#fff" opacity="0.055"/>
+        <ellipse cx="1403" cy="408" rx="96" ry="5" fill="#fff" opacity="0.025"/>
+        <ellipse cx="1157" cy="203" rx="24" ry="12" fill="#fff" opacity="0.031"/>
+        <ellipse cx="911" cy="682" rx="42" ry="19" fill="#fff" opacity="0.037"/>
+        <ellipse cx="665" cy="423" rx="60" ry="26" fill="#fff" opacity="0.043"/>
+        <ellipse cx="419" cy="875" rx="78" ry="5" fill="#fff" opacity="0.049"/>
+        <ellipse cx="173" cy="62" rx="96" ry="12" fill="#fff" opacity="0.055"/>
+        <ellipse cx="1847" cy="777" rx="24" ry="19" fill="#fff" opacity="0.025"/>
+        <ellipse cx="1601" cy="636" rx="42" ry="26" fill="#fff" opacity="0.031"/>
+        <ellipse cx="1355" cy="1073" rx="60" ry="5" fill="#fff" opacity="0.037"/>
+        <ellipse cx="1109" cy="867" rx="78" ry="12" fill="#fff" opacity="0.043"/>
+        <ellipse cx="863" cy="806" rx="96" ry="19" fill="#fff" opacity="0.049"/>
+        <ellipse cx="617" cy="817" rx="24" ry="26" fill="#fff" opacity="0.055"/>
+        <ellipse cx="371" cy="324" rx="42" ry="5" fill="#fff" opacity="0.025"/>
+        <ellipse cx="125" cy="119" rx="60" ry="12" fill="#fff" opacity="0.031"/>
+        <ellipse cx="1799" cy="58" rx="78" ry="19" fill="#fff" opacity="0.037"/>
+        <ellipse cx="1553" cy="69" rx="96" ry="26" fill="#fff" opacity="0.043"/>
+        <ellipse cx="1307" cy="656" rx="24" ry="5" fill="#fff" opacity="0.049"/>
+        <ellipse cx="1061" cy="451" rx="42" ry="12" fill="#fff" opacity="0.055"/>
+        <ellipse cx="815" cy="930" rx="60" ry="19" fill="#fff" opacity="0.025"/>
+        <ellipse cx="569" cy="671" rx="78" ry="26" fill="#fff" opacity="0.031"/>
+        <ellipse cx="323" cy="43" rx="96" ry="5" fill="#fff" opacity="0.037"/>
+        <ellipse cx="77" cy="310" rx="24" ry="12" fill="#fff" opacity="0.043"/>
+        <ellipse cx="1751" cy="1025" rx="42" ry="19" fill="#fff" opacity="0.049"/>
+        <ellipse cx="1505" cy="884" rx="60" ry="26" fill="#fff" opacity="0.055"/>
+        <ellipse cx="1259" cy="241" rx="78" ry="5" fill="#fff" opacity="0.025"/>
+        <ellipse cx="1013" cy="35" rx="96" ry="12" fill="#fff" opacity="0.031"/>
+        <ellipse cx="767" cy="1054" rx="24" ry="19" fill="#fff" opacity="0.037"/>
+        <ellipse cx="521" cy="1065" rx="42" ry="26" fill="#fff" opacity="0.043"/>
+        <ellipse cx="275" cy="572" rx="60" ry="5" fill="#fff" opacity="0.049"/>
+        <ellipse cx="29" cy="367" rx="78" ry="12" fill="#fff" opacity="0.055"/>
+        <ellipse cx="1703" cy="306" rx="96" ry="19" fill="#fff" opacity="0.025"/>
+        <ellipse cx="1457" cy="317" rx="24" ry="26" fill="#fff" opacity="0.031"/>
+    </g>
+    <rect width="1920" height="1080" fill="#000" opacity="0.08"/>
+    <rect y="740" width="1920" height="340" fill="#000" opacity="0.32"/>
+</svg>

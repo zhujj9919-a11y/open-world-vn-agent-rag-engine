@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-label="王都广场总决战">
+    <title>王都广场总决战</title>
+    <defs>
+        <radialGradient id="sceneGlow" cx="28%" cy="18%" r="78%">
+            <stop offset="0%" stop-color="#dbeafe" stop-opacity="0.72"/>
+            <stop offset="42%" stop-color="#b45309" stop-opacity="0.76"/>
+            <stop offset="100%" stop-color="#18212f" stop-opacity="1"/>
+        </radialGradient>
+        <linearGradient id="sceneDepth" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#18212f"/>
+            <stop offset="55%" stop-color="#b45309"/>
+            <stop offset="100%" stop-color="#facc15"/>
+        </linearGradient>
+        <filter id="softBlur"><feGaussianBlur stdDeviation="18"/></filter>
+    </defs>
+    <rect width="1920" height="1080" fill="url(#sceneDepth)"/>
+    <rect width="1920" height="1080" fill="url(#sceneGlow)" opacity="0.88"/>
+    <g opacity="0.9">
+        <path d="M0 800 C430 720 820 880 1230 765 S1650 700 1920 780 L1920 1080 L0 1080 Z" fill="#020617" opacity="0.5"/><ellipse cx="1320" cy="390" rx="300" ry="120" fill="#dbeafe" opacity="0.14"/>
+    </g>
+    <g opacity="0.8" filter="url(#softBlur)">
+        <ellipse cx="1156" cy="236" rx="24" ry="5" fill="#fff" opacity="0.025"/>
+        <ellipse cx="1049" cy="201" rx="42" ry="12" fill="#fff" opacity="0.031"/>
+        <ellipse cx="942" cy="225" rx="60" ry="19" fill="#fff" opacity="0.037"/>
+        <ellipse cx="835" cy="818" rx="78" ry="26" fill="#fff" opacity="0.043"/>
+        <ellipse cx="728" cy="76" rx="96" ry="5" fill="#fff" opacity="0.049"/>
+        <ellipse cx="621" cy="287" rx="24" ry="12" fill="#fff" opacity="0.055"/>
+        <ellipse cx="514" cy="974" rx="42" ry="19" fill="#fff" opacity="0.025"/>
+        <ellipse cx="407" cy="279" rx="60" ry="26" fill="#fff" opacity="0.031"/>
+        <ellipse cx="300" cy="1053" rx="78" ry="5" fill="#fff" opacity="0.037"/>
+        <ellipse cx="193" cy="941" rx="96" ry="12" fill="#fff" opacity="0.043"/>
+        <ellipse cx="86" cy="927" rx="24" ry="19" fill="#fff" opacity="0.049"/>
+        <ellipse cx="1899" cy="961" rx="42" ry="26" fill="#fff" opacity="0.055"/>
+        <ellipse cx="1792" cy="1020" rx="60" ry="5" fill="#fff" opacity="0.025"/>
+        <ellipse cx="1685" cy="11" rx="78" ry="12" fill="#fff" opacity="0.031"/>
+        <ellipse cx="1578" cy="628" rx="96" ry="19" fill="#fff" opacity="0.037"/>
+        <ellipse cx="1471" cy="978" rx="24" ry="26" fill="#fff" opacity="0.043"/>
+        <ellipse cx="1364" cy="484" rx="42" ry="5" fill="#fff" opacity="0.049"/>
+        <ellipse cx="1257" cy="449" rx="60" ry="12" fill="#fff" opacity="0.055"/>
+        <ellipse cx="1150" cy="473" rx="78" ry="19" fill="#fff" opacity="0.025"/>
+        <ellipse cx="1043" cy="1066" rx="96" ry="26" fill="#fff" opacity="0.031"/>
+        <ellipse cx="936" cy="324" rx="24" ry="5" fill="#fff" opacity="0.037"/>
+        <ellipse cx="829" cy="535" rx="42" ry="12" fill="#fff" opacity="0.043"/>
+        <ellipse cx="722" cy="142" rx="60" ry="19" fill="#fff" opacity="0.049"/>
+        <ellipse cx="615" cy="527" rx="78" ry="26" fill="#fff" opacity="0.055"/>
+        <ellipse cx="508" cy="221" rx="96" ry="5" fill="#fff" opacity="0.025"/>
+        <ellipse cx="401" cy="109" rx="24" ry="12" fill="#fff" opacity="0.031"/>
+        <ellipse cx="294" cy="95" rx="42" ry="19" fill="#fff" opacity="0.037"/>
+        <ellipse cx="187" cy="129" rx="60" ry="26" fill="#fff" opacity="0.043"/>
+        <ellipse cx="80" cy="188" rx="78" ry="5" fill="#fff" opacity="0.049"/>
+        <ellipse cx="1893" cy="259" rx="96" ry="12" fill="#fff" opacity="0.055"/>
+        <ellipse cx="1786" cy="876" rx="24" ry="19" fill="#fff" opacity="0.025"/>
+        <ellipse cx="1679" cy="146" rx="42" ry="26" fill="#fff" opacity="0.031"/>
+        <ellipse cx="1572" cy="732" rx="60" ry="5" fill="#fff" opacity="0.037"/>
+        <ellipse cx="1465" cy="697" rx="78" ry="12" fill="#fff" opacity="0.043"/>
+        <ellipse cx="1358" cy="721" rx="96" ry="19" fill="#fff" opacity="0.049"/>
+        <ellipse cx="1251" cy="234" rx="24" ry="26" fill="#fff" opacity="0.055"/>
+        <ellipse cx="1144" cy="572" rx="42" ry="5" fill="#fff" opacity="0.025"/>
+        <ellipse cx="1037" cy="783" rx="60" ry="12" fill="#fff" opacity="0.031"/>
+        <ellipse cx="930" cy="390" rx="78" ry="19" fill="#fff" opacity="0.037"/>
+        <ellipse cx="823" cy="775" rx="96" ry="26" fill="#fff" opacity="0.043"/>
+        <ellipse cx="716" cy="469" rx="24" ry="5" fill="#fff" opacity="0.049"/>
+        <ellipse cx="609" cy="357" rx="42" ry="12" fill="#fff" opacity="0.055"/>
+        <ellipse cx="502" cy="343" rx="60" ry="19" fill="#fff" opacity="0.025"/>
+        <ellipse cx="395" cy="377" rx="78" ry="26" fill="#fff" opacity="0.031"/>
+        <ellipse cx="288" cy="436" rx="96" ry="5" fill="#fff" opacity="0.037"/>
+        <ellipse cx="181" cy="507" rx="24" ry="12" fill="#fff" opacity="0.043"/>
+        <ellipse cx="74" cy="44" rx="42" ry="19" fill="#fff" opacity="0.049"/>
+        <ellipse cx="1887" cy="394" rx="60" ry="26" fill="#fff" opacity="0.055"/>
+        <ellipse cx="1780" cy="980" rx="78" ry="5" fill="#fff" opacity="0.025"/>
+        <ellipse cx="1673" cy="945" rx="96" ry="12" fill="#fff" opacity="0.031"/>
+        <ellipse cx="1566" cy="969" rx="24" ry="19" fill="#fff" opacity="0.037"/>
+        <ellipse cx="1459" cy="482" rx="42" ry="26" fill="#fff" opacity="0.043"/>
+        <ellipse cx="1352" cy="820" rx="60" ry="5" fill="#fff" opacity="0.049"/>
+        <ellipse cx="1245" cy="1031" rx="78" ry="12" fill="#fff" opacity="0.055"/>
+        <ellipse cx="1138" cy="638" rx="96" ry="19" fill="#fff" opacity="0.025"/>
+        <ellipse cx="1031" cy="1023" rx="24" ry="26" fill="#fff" opacity="0.031"/>
+    </g>
+    <rect width="1920" height="1080" fill="#000" opacity="0.08"/>
+    <rect y="740" width="1920" height="340" fill="#000" opacity="0.32"/>
+</svg>
