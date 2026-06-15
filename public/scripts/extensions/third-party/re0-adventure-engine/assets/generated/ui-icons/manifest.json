@@ -1,0 +1,21 @@
+{
+  "settings": "/scripts/extensions/third-party/re0-adventure-engine/assets/generated/ui-icons/settings.png",
+  "actions": "/scripts/extensions/third-party/re0-adventure-engine/assets/generated/ui-icons/actions.png",
+  "state": "/scripts/extensions/third-party/re0-adventure-engine/assets/generated/ui-icons/state.png",
+  "worldline": "/scripts/extensions/third-party/re0-adventure-engine/assets/generated/ui-icons/worldline.png",
+  "answer": "/scripts/extensions/third-party/re0-adventure-engine/assets/generated/ui-icons/answer.png",
+  "save": "/scripts/extensions/third-party/re0-adventure-engine/assets/generated/ui-icons/save.png",
+  "folder": "/scripts/extensions/third-party/re0-adventure-engine/assets/generated/ui-icons/folder.png",
+  "compass": "/scripts/extensions/third-party/re0-adventure-engine/assets/generated/ui-icons/compass.png",
+  "spark": "/scripts/extensions/third-party/re0-adventure-engine/assets/generated/ui-icons/spark.png",
+  "flag": "/scripts/extensions/third-party/re0-adventure-engine/assets/generated/ui-icons/flag.png",
+  "replay": "/scripts/extensions/third-party/re0-adventure-engine/assets/generated/ui-icons/replay.png",
+  "refresh": "/scripts/extensions/third-party/re0-adventure-engine/assets/generated/ui-icons/refresh.png",
+  "expand": "/scripts/extensions/third-party/re0-adventure-engine/assets/generated/ui-icons/expand.png",
+  "collapse": "/scripts/extensions/third-party/re0-adventure-engine/assets/generated/ui-icons/collapse.png",
+  "send": "/scripts/extensions/third-party/re0-adventure-engine/assets/generated/ui-icons/send.png",
+  "play": "/scripts/extensions/third-party/re0-adventure-engine/assets/generated/ui-icons/play.png",
+  "archive": "/scripts/extensions/third-party/re0-adventure-engine/assets/generated/ui-icons/folder.png",
+  "time": "/scripts/extensions/third-party/re0-adventure-engine/assets/generated/ui-icons/replay.png",
+  "gauge": "/scripts/extensions/third-party/re0-adventure-engine/assets/generated/ui-icons/state.png"
+}
