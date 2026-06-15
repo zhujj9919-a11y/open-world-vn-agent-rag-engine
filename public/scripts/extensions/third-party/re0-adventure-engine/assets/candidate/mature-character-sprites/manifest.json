@@ -1,0 +1,1037 @@
+{
+  "generatedAt": "2026-06-15T03:51:11.528Z",
+  "note": "Candidate character sprites copied into the publish source. The original runtime project is unchanged. Source sprite files and scene backgrounds are not included in this package.",
+  "count": 147,
+  "skippedCount": 12,
+  "assets": [
+    {
+      "id": "mcs_0001",
+      "character": "al",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0001_al_667213993a67.png",
+      "sha256_12": "667213993a67",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0002",
+      "character": "anastasia",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0002_anastasia_bd68bd4645c6.png",
+      "sha256_12": "bd68bd4645c6",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0003",
+      "character": "anastasia",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0003_anastasia_bc4e2199635a.png",
+      "sha256_12": "bc4e2199635a",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0004",
+      "character": "anastasia",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0004_anastasia_58f74c9b24d0.png",
+      "sha256_12": "58f74c9b24d0",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0005",
+      "character": "anastasia",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0005_anastasia_3b4488879212.png",
+      "sha256_12": "3b4488879212",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0006",
+      "character": "anastasia",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0006_anastasia_378cd8c5acc0.png",
+      "sha256_12": "378cd8c5acc0",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0007",
+      "character": "anastasia",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0007_anastasia_99545a982663.png",
+      "sha256_12": "99545a982663",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0008",
+      "character": "anastasia",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0008_anastasia_570516c4fa85.png",
+      "sha256_12": "570516c4fa85",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0009",
+      "character": "anastasia",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0009_anastasia_12893b4878d2.png",
+      "sha256_12": "12893b4878d2",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0010",
+      "character": "capella",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0010_capella_6e4e0025772e.png",
+      "sha256_12": "6e4e0025772e",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0011",
+      "character": "capella",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0011_capella_a522d8eead97.png",
+      "sha256_12": "a522d8eead97",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0012",
+      "character": "capella",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0012_capella_cd022bf21ad5.png",
+      "sha256_12": "cd022bf21ad5",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0013",
+      "character": "capella",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0013_capella_90c3df7e252d.png",
+      "sha256_12": "90c3df7e252d",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0014",
+      "character": "capella",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0014_capella_6a9a7dde3320.png",
+      "sha256_12": "6a9a7dde3320",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0015",
+      "character": "carmilla",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0015_carmilla_79b5c8e98126.png",
+      "sha256_12": "79b5c8e98126",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0016",
+      "character": "carmilla",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0016_carmilla_d7a3c2a22520.png",
+      "sha256_12": "d7a3c2a22520",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0017",
+      "character": "carmilla",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0017_carmilla_2aed4281364c.png",
+      "sha256_12": "2aed4281364c",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0018",
+      "character": "carmilla",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0018_carmilla_9a76c759effc.png",
+      "sha256_12": "9a76c759effc",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0019",
+      "character": "carmilla",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0019_carmilla_48769f91dc18.png",
+      "sha256_12": "48769f91dc18",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0020",
+      "character": "cecilus",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0020_cecilus_5e1ef2ec6f5f.png",
+      "sha256_12": "5e1ef2ec6f5f",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0021",
+      "character": "chisha",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0021_chisha_2216f20b8042.png",
+      "sha256_12": "2216f20b8042",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0022",
+      "character": "crusch",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0022_crusch_cd4738a64c32.png",
+      "sha256_12": "cd4738a64c32",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0023",
+      "character": "crusch",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0023_crusch_1486407e7557.png",
+      "sha256_12": "1486407e7557",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0024",
+      "character": "crusch",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0024_crusch_cd4738a64c32.png",
+      "sha256_12": "cd4738a64c32",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0025",
+      "character": "crusch",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0025_crusch_dd0e738a1804.png",
+      "sha256_12": "dd0e738a1804",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0026",
+      "character": "crusch",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0026_crusch_533c2c96fa2b.png",
+      "sha256_12": "533c2c96fa2b",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0027",
+      "character": "crusch",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0027_crusch_dff08c75e282.png",
+      "sha256_12": "dff08c75e282",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0028",
+      "character": "crusch",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0028_crusch_9cf149e22fbc.png",
+      "sha256_12": "9cf149e22fbc",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0029",
+      "character": "crusch",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0029_crusch_cf5d34eedb4f.png",
+      "sha256_12": "cf5d34eedb4f",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0030",
+      "character": "crusch",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0030_crusch_129411491f0e.png",
+      "sha256_12": "129411491f0e",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0031",
+      "character": "crusch",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0031_crusch_e1d1c0fab7e0.png",
+      "sha256_12": "e1d1c0fab7e0",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0032",
+      "character": "crusch",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0032_crusch_904edb63c536.png",
+      "sha256_12": "904edb63c536",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0033",
+      "character": "crusch",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0033_crusch_b51a0d772e35.png",
+      "sha256_12": "b51a0d772e35",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0034",
+      "character": "daphne",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0034_daphne_6e7d11ec0a51.png",
+      "sha256_12": "6e7d11ec0a51",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0035",
+      "character": "daphne",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0035_daphne_ef4914ef7768.png",
+      "sha256_12": "ef4914ef7768",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0036",
+      "character": "echidna",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0036_echidna_57c7adcb73bd.png",
+      "sha256_12": "57c7adcb73bd",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0037",
+      "character": "echidna",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0037_echidna_3fae7dd29b37.png",
+      "sha256_12": "3fae7dd29b37",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0038",
+      "character": "echidna",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0038_echidna_001ecf549930.png",
+      "sha256_12": "001ecf549930",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0039",
+      "character": "echidna",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0039_echidna_f098f854847f.png",
+      "sha256_12": "f098f854847f",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0040",
+      "character": "echidna",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0040_echidna_13192a66f58c.png",
+      "sha256_12": "13192a66f58c",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0041",
+      "character": "echidna",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0041_echidna_5fad8d049865.png",
+      "sha256_12": "5fad8d049865",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0042",
+      "character": "elsa",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0042_elsa_a13f3b27f9cf.png",
+      "sha256_12": "a13f3b27f9cf",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0043",
+      "character": "elsa",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0043_elsa_1c18fb115024.png",
+      "sha256_12": "1c18fb115024",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0044",
+      "character": "elsa",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0044_elsa_6ccbe3103d47.png",
+      "sha256_12": "6ccbe3103d47",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0045",
+      "character": "elsa",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0045_elsa_eee036cbebdc.png",
+      "sha256_12": "eee036cbebdc",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0046",
+      "character": "elsa",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0046_elsa_81fc57d4c713.png",
+      "sha256_12": "81fc57d4c713",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0047",
+      "character": "elsa",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0047_elsa_b3645054ba1d.png",
+      "sha256_12": "b3645054ba1d",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0048",
+      "character": "emilia",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0048_emilia_e1c7038cacca.png",
+      "sha256_12": "e1c7038cacca",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0049",
+      "character": "emilia",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0049_emilia_f58ebaed48a5.png",
+      "sha256_12": "f58ebaed48a5",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0050",
+      "character": "emilia",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0050_emilia_a08ab9fc30b5.png",
+      "sha256_12": "a08ab9fc30b5",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0051",
+      "character": "emilia",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0051_emilia_066b5ce1dc38.png",
+      "sha256_12": "066b5ce1dc38",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0052",
+      "character": "emilia",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0052_emilia_85b930cc7803.png",
+      "sha256_12": "85b930cc7803",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0053",
+      "character": "emilia",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0053_emilia_6771be8d7e7b.png",
+      "sha256_12": "6771be8d7e7b",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0054",
+      "character": "emilia",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0054_emilia_c510924068d5.png",
+      "sha256_12": "c510924068d5",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0055",
+      "character": "emilia",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0055_emilia_aa6e94193fd8.png",
+      "sha256_12": "aa6e94193fd8",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0056",
+      "character": "emilia",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0056_emilia_22a53bd7e5a8.png",
+      "sha256_12": "22a53bd7e5a8",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0057",
+      "character": "emilia",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0057_emilia_d65b74e91ae1.png",
+      "sha256_12": "d65b74e91ae1",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0058",
+      "character": "ferris",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0058_ferris_a67013c87799.png",
+      "sha256_12": "a67013c87799",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0059",
+      "character": "flop",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0059_flop_8eec4bbcef61.png",
+      "sha256_12": "8eec4bbcef61",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0060",
+      "character": "fortuna",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0060_fortuna_0ed19815ce17.png",
+      "sha256_12": "0ed19815ce17",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0061",
+      "character": "fortuna",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0061_fortuna_ed142bf82746.png",
+      "sha256_12": "ed142bf82746",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0062",
+      "character": "fortuna",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0062_fortuna_ae74f25576c2.png",
+      "sha256_12": "ae74f25576c2",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0063",
+      "character": "fortuna",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0063_fortuna_7f4568d49e9a.png",
+      "sha256_12": "7f4568d49e9a",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0064",
+      "character": "frederica",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0064_frederica_1b869022d255.png",
+      "sha256_12": "1b869022d255",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0065",
+      "character": "frederica",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0065_frederica_0a70e4ad8d2e.png",
+      "sha256_12": "0a70e4ad8d2e",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0066",
+      "character": "frederica",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0066_frederica_b6799b48ecaf.png",
+      "sha256_12": "b6799b48ecaf",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0067",
+      "character": "frederica",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0067_frederica_5f758ce37d11.png",
+      "sha256_12": "5f758ce37d11",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0068",
+      "character": "frederica",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0068_frederica_b483a309a329.png",
+      "sha256_12": "b483a309a329",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0069",
+      "character": "frederica",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0069_frederica_51a438c02342.png",
+      "sha256_12": "51a438c02342",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0070",
+      "character": "frederica",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0070_frederica_a1d1ccd74736.png",
+      "sha256_12": "a1d1ccd74736",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0071",
+      "character": "frederica",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0071_frederica_de5de782ec57.png",
+      "sha256_12": "de5de782ec57",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0072",
+      "character": "garfiel",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0072_garfiel_86a0b37a7fb8.png",
+      "sha256_12": "86a0b37a7fb8",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0073",
+      "character": "halibel",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0073_halibel_c06c6ed0f8ed.png",
+      "sha256_12": "c06c6ed0f8ed",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0074",
+      "character": "heinkel",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0074_heinkel_092b560a3fe1.png",
+      "sha256_12": "092b560a3fe1",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0075",
+      "character": "joshua",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0075_joshua_9491dc59b15f.png",
+      "sha256_12": "9491dc59b15f",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0076",
+      "character": "julius",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0076_julius_0ca005f05875.png",
+      "sha256_12": "0ca005f05875",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0077",
+      "character": "julius",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0077_julius_44ad57f1bdb7.png",
+      "sha256_12": "44ad57f1bdb7",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0078",
+      "character": "julius",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0078_julius_8d4ad418a00b.png",
+      "sha256_12": "8d4ad418a00b",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0079",
+      "character": "kiritaka",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0079_kiritaka_652c7584a512.png",
+      "sha256_12": "652c7584a512",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0080",
+      "character": "liliana",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0080_liliana_25e49449b9e1.png",
+      "sha256_12": "25e49449b9e1",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0081",
+      "character": "liliana",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0081_liliana_02740fec5989.png",
+      "sha256_12": "02740fec5989",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0082",
+      "character": "liliana",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0082_liliana_f6b30deba5ae.png",
+      "sha256_12": "f6b30deba5ae",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0083",
+      "character": "liliana",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0083_liliana_c0880e452f38.png",
+      "sha256_12": "c0880e452f38",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0084",
+      "character": "lishelle",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0084_lishelle_3662d63f5493.png",
+      "sha256_12": "3662d63f5493",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0085",
+      "character": "lishelle",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0085_lishelle_42683b3c0bb0.png",
+      "sha256_12": "42683b3c0bb0",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0086",
+      "character": "lishelle",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0086_lishelle_d2780fb54a8b.png",
+      "sha256_12": "d2780fb54a8b",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0087",
+      "character": "medium",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0087_medium_a047a587680a.png",
+      "sha256_12": "a047a587680a",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0088",
+      "character": "medium",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0088_medium_2867467285a8.png",
+      "sha256_12": "2867467285a8",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0089",
+      "character": "minerva",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0089_minerva_fd60bd60af8f.png",
+      "sha256_12": "fd60bd60af8f",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0090",
+      "character": "minerva",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0090_minerva_cdb1bd5afabd.png",
+      "sha256_12": "cdb1bd5afabd",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0091",
+      "character": "minerva",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0091_minerva_6865c392a20f.png",
+      "sha256_12": "6865c392a20f",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0092",
+      "character": "minerva",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0092_minerva_ae85abe51ae8.png",
+      "sha256_12": "ae85abe51ae8",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0093",
+      "character": "minerva",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0093_minerva_5f1713fe51cc.png",
+      "sha256_12": "5f1713fe51cc",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0094",
+      "character": "otto",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0094_otto_87c5ec8e2fdf.png",
+      "sha256_12": "87c5ec8e2fdf",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0095",
+      "character": "otto",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0095_otto_5b2dfa9cbd7a.png",
+      "sha256_12": "5b2dfa9cbd7a",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0096",
+      "character": "owen",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0096_owen_75935c00c682.png",
+      "sha256_12": "75935c00c682",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0097",
+      "character": "owen",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0097_owen_3e3d7cf38e37.png",
+      "sha256_12": "3e3d7cf38e37",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0098",
+      "character": "pandora",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0098_pandora_970ebf88f700.png",
+      "sha256_12": "970ebf88f700",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0099",
+      "character": "pandora",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0099_pandora_691c724248c3.png",
+      "sha256_12": "691c724248c3",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0100",
+      "character": "pandora",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0100_pandora_75e8dbb6483a.png",
+      "sha256_12": "75e8dbb6483a",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0101",
+      "character": "priscilla",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0101_priscilla_16a239e1c806.png",
+      "sha256_12": "16a239e1c806",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0102",
+      "character": "priscilla",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0102_priscilla_70a6d3b93d7e.png",
+      "sha256_12": "70a6d3b93d7e",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0103",
+      "character": "priscilla",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0103_priscilla_0353bc696474.png",
+      "sha256_12": "0353bc696474",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0104",
+      "character": "priscilla",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0104_priscilla_52e319f22f1e.png",
+      "sha256_12": "52e319f22f1e",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0105",
+      "character": "priscilla",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0105_priscilla_8798e165976a.png",
+      "sha256_12": "8798e165976a",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0106",
+      "character": "priscilla",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0106_priscilla_43c4116ef74d.png",
+      "sha256_12": "43c4116ef74d",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0107",
+      "character": "priscilla",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0107_priscilla_87173e94f66c.png",
+      "sha256_12": "87173e94f66c",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0108",
+      "character": "priscilla",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0108_priscilla_580fcf2f09dc.png",
+      "sha256_12": "580fcf2f09dc",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0109",
+      "character": "priscilla",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0109_priscilla_7b501861e78c.png",
+      "sha256_12": "7b501861e78c",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0110",
+      "character": "protagonist",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0110_protagonist_d4b7f96ef7a1.png",
+      "sha256_12": "d4b7f96ef7a1",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0111",
+      "character": "ram",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0111_ram_3cfeb8ec9f63.png",
+      "sha256_12": "3cfeb8ec9f63",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0112",
+      "character": "ram",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0112_ram_5110c308c435.png",
+      "sha256_12": "5110c308c435",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0113",
+      "character": "ram",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0113_ram_ee0f94ac7ac9.png",
+      "sha256_12": "ee0f94ac7ac9",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0114",
+      "character": "ram",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0114_ram_f25acc96049c.png",
+      "sha256_12": "f25acc96049c",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0115",
+      "character": "ram",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0115_ram_d50e6336859f.png",
+      "sha256_12": "d50e6336859f",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0116",
+      "character": "ram",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0116_ram_3fc151a4dce9.png",
+      "sha256_12": "3fc151a4dce9",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0117",
+      "character": "ram",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0117_ram_9dc4f5e19467.png",
+      "sha256_12": "9dc4f5e19467",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0118",
+      "character": "ram",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0118_ram_7a115d514592.png",
+      "sha256_12": "7a115d514592",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0119",
+      "character": "reinhard",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0119_reinhard_ca3284060f47.png",
+      "sha256_12": "ca3284060f47",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0120",
+      "character": "rem",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0120_rem_b137b4b94ff8.png",
+      "sha256_12": "b137b4b94ff8",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0121",
+      "character": "rem",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0121_rem_4ec97ceaabe7.png",
+      "sha256_12": "4ec97ceaabe7",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0122",
+      "character": "rem",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0122_rem_bc00889f26dd.png",
+      "sha256_12": "bc00889f26dd",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0123",
+      "character": "rem",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0123_rem_b9684f411e92.png",
+      "sha256_12": "b9684f411e92",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0124",
+      "character": "rem",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0124_rem_6a5124e5659b.png",
+      "sha256_12": "6a5124e5659b",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0125",
+      "character": "rem",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0125_rem_00367600de41.png",
+      "sha256_12": "00367600de41",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0126",
+      "character": "rem",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0126_rem_8f8a288681d2.png",
+      "sha256_12": "8f8a288681d2",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0127",
+      "character": "rem",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0127_rem_eaf4864982f5.png",
+      "sha256_12": "eaf4864982f5",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0128",
+      "character": "rem",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0128_rem_2a5313bd7758.png",
+      "sha256_12": "2a5313bd7758",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0129",
+      "character": "ricardo",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0129_ricardo_72662a35599c.png",
+      "sha256_12": "72662a35599c",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0130",
+      "character": "rishel",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0130_rishel_d2780fb54a8b.png",
+      "sha256_12": "d2780fb54a8b",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0131",
+      "character": "roswaal",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0131_roswaal_c749e780cbd1.png",
+      "sha256_12": "c749e780cbd1",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0132",
+      "character": "satella",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0132_satella_0c812e193f0d.png",
+      "sha256_12": "0c812e193f0d",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0133",
+      "character": "satella",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0133_satella_c372a5b51632.png",
+      "sha256_12": "c372a5b51632",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0134",
+      "character": "satella",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0134_satella_b784f0b86d6a.png",
+      "sha256_12": "b784f0b86d6a",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0135",
+      "character": "satella",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0135_satella_87037986a008.png",
+      "sha256_12": "87037986a008",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0136",
+      "character": "satella",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0136_satella_fb8694e35405.png",
+      "sha256_12": "fb8694e35405",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0137",
+      "character": "satella",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0137_satella_d92e816fc962.png",
+      "sha256_12": "d92e816fc962",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0138",
+      "character": "shaula",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0138_shaula_42543cc640b3.png",
+      "sha256_12": "42543cc640b3",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0139",
+      "character": "shaula",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0139_shaula_68c7dbea7ee0.png",
+      "sha256_12": "68c7dbea7ee0",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0140",
+      "character": "vincent",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0140_vincent_4120c93d2a48.png",
+      "sha256_12": "4120c93d2a48",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0141",
+      "character": "wilhelm",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0141_wilhelm_40abc4ec171f.png",
+      "sha256_12": "40abc4ec171f",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0142",
+      "character": "wilhelm",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0142_wilhelm_7387e9d88b8c.png",
+      "sha256_12": "7387e9d88b8c",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0143",
+      "character": "yorna",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0143_yorna_2de5b2f497d7.png",
+      "sha256_12": "2de5b2f497d7",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0144",
+      "character": "yorna",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0144_yorna_7f181b10ddcf.png",
+      "sha256_12": "7f181b10ddcf",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0145",
+      "character": "yorna",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0145_yorna_d3c72ba9df15.png",
+      "sha256_12": "d3c72ba9df15",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0146",
+      "character": "yorna",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0146_yorna_4fbca6833566.png",
+      "sha256_12": "4fbca6833566",
+      "publicationClass": "candidate-character-sprite"
+    },
+    {
+      "id": "mcs_0147",
+      "character": "yorna",
+      "file": "public/scripts/extensions/third-party/re0-adventure-engine/assets/candidate/mature-character-sprites/mcs_0147_yorna_0f4ca8eb83a1.png",
+      "sha256_12": "0f4ca8eb83a1",
+      "publicationClass": "candidate-character-sprite"
+    }
+  ]
+}
